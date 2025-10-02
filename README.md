@@ -1322,5 +1322,3 @@
             document.getElementById('mainPage').style.display = 'flex';
         });
     </script>
-</body>
-</html>
