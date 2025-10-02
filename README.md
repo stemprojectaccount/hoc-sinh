@@ -236,7 +236,7 @@
         }
         
         .header-icon {
-            font-size: 4rem;
+            font-size: 5rem;
             color: var(--gold-color);
             margin-bottom: 30px;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
@@ -253,7 +253,7 @@
         }
         
         .glowing-text {
-            font-size: 5rem;
+            font-size: 6rem;
             margin-bottom: 20px;
             text-shadow: 0 0 10px rgba(254 , 224 , 255 , 0 ), 0 0 20px rgba(255, 215, 0, 0.5), 0 0 30px rgba(255, 215, 0, 0 );
             position: relative;
@@ -276,7 +276,7 @@
         }
         
         .subtitle {
-            font-size: 2.2rem;
+            font-size: 2.5rem;
             margin-bottom: 10px;
             position: relative;
             color: #e0e0ff;
@@ -306,7 +306,7 @@
         }
         
         .section-title {
-            font-size: 3.5rem;
+            font-size: 4rem;
             text-align: center;
             margin-bottom: 60px;
             background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
@@ -334,7 +334,7 @@
         
         .section-title i {
             margin-right: 15px;
-            font-size: 3rem;
+            font-size: 3.5rem;
             vertical-align: middle;
         }
         
@@ -406,7 +406,7 @@
         }
         
         .large-year .year-period {
-            font-size: 3rem;
+            font-size: 3.5rem;
             margin-bottom: 15px;
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
@@ -415,7 +415,7 @@
         }
         
         .large-year .year-label {
-            font-size: 1.6rem;
+            font-size: 2rem;
             opacity: 0.9;
             color: #e0e0ff;
             font-weight: 500;
@@ -437,7 +437,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-size: 3rem;
+            font-size: 3.5rem;
             font-weight: bold;
             border: 4px solid rgba(255, 215, 0, 0.7);
             transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -511,7 +511,7 @@
         }
         
         .year-buttons-title {
-            font-size: 3rem;
+            font-size: 3.5rem;
             margin-bottom: 40px;
             text-align: center;
             background: linear-gradient(45deg, #FFD700, #FFA500);
@@ -533,7 +533,7 @@
             background: linear-gradient(135deg, rgba(58, 109, 201, 0.8), rgba(42, 77, 155, 0.9));
             border-radius: 15px;
             padding: 25px 35px;
-            font-size: 1.8rem;
+            font-size: 2rem;
             font-weight: bold;
             border: 2px solid rgba(255, 215, 0, 0.4);
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -576,7 +576,7 @@
             cursor: pointer;
             border: none;
             color: #F8F6F2;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             transition: all 0.4s;
             border: 2px solid rgba(255, 215, 0, 0.4);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -597,7 +597,7 @@
         }
         
         .student-page h2 {
-            font-size: 3.5rem;
+            font-size: 4rem;
             margin-bottom: 50px;
             background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
             -webkit-background-clip: text;
@@ -667,7 +667,7 @@
         }
         
         .student-card h3 {
-            font-size: 2rem;
+            font-size: 2.2rem;
             margin-bottom: 15px;
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
@@ -677,12 +677,12 @@
         
         .student-card p {
             margin-bottom: 10px;
-            font-size: 1.3rem;
+            font-size: 1.5rem;
             color: #e0e0ff;
         }
         
         .student-icon {
-            font-size: 3rem;
+            font-size: 3.5rem;
             margin-bottom: 20px;
             color: #FFD700;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
@@ -698,7 +698,7 @@
             cursor: pointer;
             border: none;
             color: #F8F6F2;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             transition: all 0.4s;
             border: 2px solid rgba(255, 215, 0, 0.4);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -719,7 +719,7 @@
         }
         
         .masters-phd-page h2 {
-            font-size: 3.5rem;
+            font-size: 4rem;
             margin-bottom: 50px;
             background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
             -webkit-background-clip: text;
@@ -789,7 +789,7 @@
         }
         
         .graduate-card h3 {
-            font-size: 2.2rem;
+            font-size: 2.5rem;
             margin-bottom: 15px;
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
@@ -803,19 +803,19 @@
             border-radius: 25px;
             font-weight: bold;
             margin-bottom: 20px;
-            font-size: 1.4rem;
+            font-size: 1.6rem;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
             border: 1px solid rgba(255, 215, 0, 0.5);
         }
         
         .graduate-card p {
             margin-bottom: 12px;
-            font-size: 1.3rem;
+            font-size: 1.5rem;
             color: #fff;
         }
         
         .graduate-icon {
-            font-size: 3.5rem;
+            font-size: 4rem;
             margin-bottom: 25px;
             color: #FFD700;
             text-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
@@ -831,7 +831,7 @@
             cursor: pointer;
             border: none;
             color: #F8F6F2;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             transition: all 0.4s;
             border: 2px solid rgba(255, 215, 0, 0.4);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -903,7 +903,7 @@
         }
         
         .modal-header h3 {
-            font-size: 2.5rem;
+            font-size: 2.8rem;
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -938,7 +938,7 @@
         
         .modal-info p {
             margin-bottom: 12px;
-            font-size: 1.3rem;
+            font-size: 1.5rem;
             padding: 8px 0;
             border-bottom: 1px solid rgba(255, 215, 0, 0.2);
         }
@@ -956,7 +956,7 @@
             background: rgba(15, 30, 60, 0.8);
             color: #b0b0ff;
             border-top: 1px solid rgba(255, 215, 0, 0.2);
-            font-size: 1.2rem;
+            font-size: 1.4rem;
             width: 100%;
         }
         
@@ -1089,13 +1089,13 @@
             }
             
             .large-year .year-period {
-                font-size: 2.5rem;
+                font-size: 3rem;
             }
             
             .masters-phd-button {
                 width: 500px;
                 height: 200px;
-                font-size: 2.5rem;
+                font-size: 3rem;
             }
             
             .masters-phd-button .button-icon {
@@ -1111,11 +1111,11 @@
             }
             
             .glowing-text {
-                font-size: 3rem;
+                font-size: 3.5rem;
             }
             
             .subtitle {
-                font-size: 1.6rem;
+                font-size: 1.8rem;
             }
             
             .large-years {
@@ -1129,17 +1129,17 @@
             }
             
             .large-year .year-period {
-                font-size: 2.2rem;
+                font-size: 2.5rem;
             }
             
             .large-year .year-label {
-                font-size: 1.3rem;
+                font-size: 1.5rem;
             }
             
             .masters-phd-button {
                 width: 350px;
                 height: 160px;
-                font-size: 2.2rem;
+                font-size: 2.5rem;
                 padding: 30px;
             }
             
@@ -1149,7 +1149,7 @@
             }
             
             .section-title {
-                font-size: 2.5rem;
+                font-size: 2.8rem;
             }
             
             .year-buttons {
@@ -1160,6 +1160,7 @@
             .year-button {
                 width: 90%;
                 max-width: 300px;
+                font-size: 1.8rem;
             }
             
             .students-list, .graduates-list {
@@ -1175,11 +1176,11 @@
             }
             
             .glowing-text {
-                font-size: 2.2rem;
+                font-size: 2.5rem;
             }
             
             .subtitle {
-                font-size: 1.3rem;
+                font-size: 1.5rem;
             }
             
             .large-year {
@@ -1188,7 +1189,7 @@
             }
             
             .large-year .year-period {
-                font-size: 2rem;
+                font-size: 2.2rem;
             }
             
             .large-year .year-icon {
@@ -1198,7 +1199,7 @@
             .masters-phd-button {
                 width: 300px;
                 height: 140px;
-                font-size: 1.8rem;
+                font-size: 2rem;
                 padding: 25px;
             }
             
@@ -1208,7 +1209,7 @@
             }
             
             .section-title {
-                font-size: 2rem;
+                font-size: 2.2rem;
             }
             
             .modal-content {
