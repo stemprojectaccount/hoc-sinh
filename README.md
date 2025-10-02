@@ -1,5 +1,3 @@
-hãy hướng dẫn  tôi làm sao để tôi cs thể thay đổi độ to chữ , và cách làm cho  phần vinh danh tràn full màn hình đây là code hãy hướng dẫn hoặc thêm trực tiếp vào đó 
-code : 
 <!DOCTYPE html>
 <html lang="vi">
 <head>
