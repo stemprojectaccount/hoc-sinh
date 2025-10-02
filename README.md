@@ -36,11 +36,16 @@
             --transition-fast: all 0.3s ease;
         }
         
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+        }
+        
         body {
             background: var(--gradient-primary);
             color: var(--text-light);
             min-height: 100vh;
-            overflow-x: hidden;
             position: relative;
         }
         
@@ -189,6 +194,7 @@
             overflow: hidden;
             border-bottom: 1px solid rgba(255, 215, 0, 0.3);
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            width: 100%;
         }
         
         header::before {
@@ -234,10 +240,10 @@
             color: var(--gold-color);
             margin-bottom: 30px;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
-            animation: float 3s ease-in-out infinite;
+            animation: floatIcon 3s ease-in-out infinite;
         }
         
-        @keyframes float {
+        @keyframes floatIcon {
             0%, 100% {
                 transform: translateY(0);
             }
@@ -296,6 +302,7 @@
             padding: 80px 20px;
             flex-direction: column;
             gap: 100px;
+            width: 100%;
         }
         
         .section-title {
@@ -311,6 +318,7 @@
             display: inline-block;
             padding: 0 20px;
             font-family: 'Playfair Display', serif;
+            width: 100%;
         }
         
         .section-title::after {
@@ -949,6 +957,7 @@
             color: #b0b0ff;
             border-top: 1px solid rgba(255, 215, 0, 0.2);
             font-size: 1.2rem;
+            width: 100%;
         }
         
         .footer-text {
@@ -1334,6 +1343,10 @@
                 </div>
             </div>
         </div>
+        
+        <footer>
+            <p>Trang web vinh danh học sinh xuất sắc - <span class="footer-text">20 năm thành tích rực rỡ</span></p>
+        </footer>
     </div>
 
     <script>
