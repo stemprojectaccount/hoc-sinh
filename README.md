@@ -1,4 +1,3 @@
-ml>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
