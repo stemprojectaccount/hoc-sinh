@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bảng Vinh Danh - 20 Năm Thành Tích Rực Rỡ</title>
+    <title>Vinh Danh Học Sinh Xuất Sắc - 20 Năm học</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
@@ -214,28 +215,13 @@
             z-index: 2;
         }
         
+        /* ẨN LOGO CÓ CHỮ */
         .header-logo {
-            position: absolute;
-            top: 30px;
-            left: 50px;
-            height: 180px;
-            width: auto;
-            z-index: 10;
-            filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.7));
-            transition: var(--transition-medium);
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 10px;
-            backdrop-filter: blur(10px);
-        }
-        
-        .header-logo:hover {
-            transform: scale(1.1) rotate(5deg);
-            filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.9));
+            display: none;
         }
         
         .header-icon {
-            font-size: 5rem;
+            font-size: 4rem;
             color: var(--gold-color);
             margin-bottom: 30px;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
@@ -252,7 +238,7 @@
         }
         
         .glowing-text {
-            font-size: 6rem;
+            font-size: 5rem;
             margin-bottom: 20px;
             text-shadow: 0 0 10px rgba(254 , 224 , 255 , 0 ), 0 0 20px rgba(255, 215, 0, 0.5), 0 0 30px rgba(255, 215, 0, 0 );
             position: relative;
@@ -275,7 +261,7 @@
         }
         
         .subtitle {
-            font-size: 2.5rem;
+            font-size: 2.2rem;
             margin-bottom: 10px;
             position: relative;
             color: #e0e0ff;
@@ -305,7 +291,7 @@
         }
         
         .section-title {
-            font-size: 4rem;
+            font-size: 3.5rem;
             text-align: center;
             margin-bottom: 60px;
             background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
@@ -333,7 +319,7 @@
         
         .section-title i {
             margin-right: 15px;
-            font-size: 3.5rem;
+            font-size: 3rem;
             vertical-align: middle;
         }
         
@@ -405,7 +391,7 @@
         }
         
         .large-year .year-period {
-            font-size: 3.5rem;
+            font-size: 3rem;
             margin-bottom: 15px;
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
@@ -414,7 +400,7 @@
         }
         
         .large-year .year-label {
-            font-size: 2rem;
+            font-size: 1.6rem;
             opacity: 0.9;
             color: #e0e0ff;
             font-weight: 500;
@@ -436,7 +422,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-size: 3.5rem;
+            font-size: 3rem;
             font-weight: bold;
             border: 4px solid rgba(255, 215, 0, 0.7);
             transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -510,7 +496,7 @@
         }
         
         .year-buttons-title {
-            font-size: 3.5rem;
+            font-size: 3rem;
             margin-bottom: 40px;
             text-align: center;
             background: linear-gradient(45deg, #FFD700, #FFA500);
@@ -532,7 +518,7 @@
             background: linear-gradient(135deg, rgba(58, 109, 201, 0.8), rgba(42, 77, 155, 0.9));
             border-radius: 15px;
             padding: 25px 35px;
-            font-size: 2rem;
+            font-size: 1.8rem;
             font-weight: bold;
             border: 2px solid rgba(255, 215, 0, 0.4);
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -575,7 +561,7 @@
             cursor: pointer;
             border: none;
             color: #F8F6F2;
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             transition: all 0.4s;
             border: 2px solid rgba(255, 215, 0, 0.4);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -596,7 +582,7 @@
         }
         
         .student-page h2 {
-            font-size: 4rem;
+            font-size: 3.5rem;
             margin-bottom: 50px;
             background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
             -webkit-background-clip: text;
@@ -666,7 +652,7 @@
         }
         
         .student-card h3 {
-            font-size: 2.2rem;
+            font-size: 2rem;
             margin-bottom: 15px;
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
@@ -676,12 +662,12 @@
         
         .student-card p {
             margin-bottom: 10px;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             color: #e0e0ff;
         }
         
         .student-icon {
-            font-size: 3.5rem;
+            font-size: 3rem;
             margin-bottom: 20px;
             color: #FFD700;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
@@ -697,7 +683,7 @@
             cursor: pointer;
             border: none;
             color: #F8F6F2;
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             transition: all 0.4s;
             border: 2px solid rgba(255, 215, 0, 0.4);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -718,7 +704,7 @@
         }
         
         .masters-phd-page h2 {
-            font-size: 4rem;
+            font-size: 3.5rem;
             margin-bottom: 50px;
             background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
             -webkit-background-clip: text;
@@ -788,7 +774,7 @@
         }
         
         .graduate-card h3 {
-            font-size: 2.5rem;
+            font-size: 2.2rem;
             margin-bottom: 15px;
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
@@ -802,19 +788,19 @@
             border-radius: 25px;
             font-weight: bold;
             margin-bottom: 20px;
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
             border: 1px solid rgba(255, 215, 0, 0.5);
         }
         
         .graduate-card p {
             margin-bottom: 12px;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             color: #fff;
         }
         
         .graduate-icon {
-            font-size: 4rem;
+            font-size: 3.5rem;
             margin-bottom: 25px;
             color: #FFD700;
             text-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
@@ -830,7 +816,7 @@
             cursor: pointer;
             border: none;
             color: #F8F6F2;
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             transition: all 0.4s;
             border: 2px solid rgba(255, 215, 0, 0.4);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -902,7 +888,7 @@
         }
         
         .modal-header h3 {
-            font-size: 2.8rem;
+            font-size: 2.5rem;
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -937,7 +923,7 @@
         
         .modal-info p {
             margin-bottom: 12px;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             padding: 8px 0;
             border-bottom: 1px solid rgba(255, 215, 0, 0.2);
         }
@@ -955,7 +941,7 @@
             background: rgba(15, 30, 60, 0.8);
             color: #b0b0ff;
             border-top: 1px solid rgba(255, 215, 0, 0.2);
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             width: 100%;
         }
         
@@ -1088,13 +1074,13 @@
             }
             
             .large-year .year-period {
-                font-size: 3rem;
+                font-size: 2.5rem;
             }
             
             .masters-phd-button {
                 width: 500px;
                 height: 200px;
-                font-size: 3rem;
+                font-size: 2.5rem;
             }
             
             .masters-phd-button .button-icon {
@@ -1110,11 +1096,11 @@
             }
             
             .glowing-text {
-                font-size: 3.5rem;
+                font-size: 3rem;
             }
             
             .subtitle {
-                font-size: 1.8rem;
+                font-size: 1.6rem;
             }
             
             .large-years {
@@ -1128,17 +1114,17 @@
             }
             
             .large-year .year-period {
-                font-size: 2.5rem;
+                font-size: 2.2rem;
             }
             
             .large-year .year-label {
-                font-size: 1.5rem;
+                font-size: 1.3rem;
             }
             
             .masters-phd-button {
                 width: 350px;
                 height: 160px;
-                font-size: 2.5rem;
+                font-size: 2.2rem;
                 padding: 30px;
             }
             
@@ -1148,7 +1134,7 @@
             }
             
             .section-title {
-                font-size: 2.8rem;
+                font-size: 2.5rem;
             }
             
             .year-buttons {
@@ -1159,7 +1145,6 @@
             .year-button {
                 width: 90%;
                 max-width: 300px;
-                font-size: 1.8rem;
             }
             
             .students-list, .graduates-list {
@@ -1175,11 +1160,11 @@
             }
             
             .glowing-text {
-                font-size: 2.5rem;
+                font-size: 2.2rem;
             }
             
             .subtitle {
-                font-size: 1.5rem;
+                font-size: 1.3rem;
             }
             
             .large-year {
@@ -1188,7 +1173,7 @@
             }
             
             .large-year .year-period {
-                font-size: 2.2rem;
+                font-size: 2rem;
             }
             
             .large-year .year-icon {
@@ -1198,7 +1183,7 @@
             .masters-phd-button {
                 width: 300px;
                 height: 140px;
-                font-size: 2rem;
+                font-size: 1.8rem;
                 padding: 25px;
             }
             
@@ -1208,7 +1193,7 @@
             }
             
             .section-title {
-                font-size: 2.2rem;
+                font-size: 2rem;
             }
             
             .modal-content {
@@ -1256,7 +1241,7 @@
                 <h1 class="glowing-text typewriter">BẢNG VINH DANH</h1>
                 <div class="subtitle">20 NĂM HỌC THÀNH TÍCH RỰC RỠ</div>
             </div>
-            <img src="https://i.postimg.cc/zGwcmPH1/image.png" alt="Logo" class="header-logo">
+            <!-- ĐÃ ẨN LOGO CÓ CHỮ -->
         </header>
         
         <!-- TRANG CHÍNH -->
@@ -1286,6 +1271,11 @@
                         <div class="year-icon"><i class="fas fa-laptop-code"></i></div>
                         <div class="year-period">2020-2025</div>
                         <div class="year-label">Giai đoạn Hiện đại</div>
+                    </div>
+                    <div class="large-year enhanced-card magic-button" data-year="2025-2030">
+                        <div class="year-icon"><i class="fas fa-rocket"></i></div>
+                        <div class="year-period">2025-2030</div>
+                        <div class="year-label">Giai đoạn Tương lai</div>
                     </div>
                 </div>
             </div>
