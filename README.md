@@ -195,6 +195,10 @@
             border-bottom: 1px solid rgba(255, 215, 0, 0.3);
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
             width: 100%;
+            height: 100vh; /* THAY ĐỔI: Chiều cao full màn hình */
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         
         header::before {
@@ -238,7 +242,7 @@
         }
         
         .glowing-text {
-            font-size: 4rem;
+            font-size: 5rem; /* THAY ĐỔI: Tăng kích thước chữ */
             margin-bottom: 20px;
             text-shadow: 0 0 10px rgba(254 , 224 , 255 , 0 ), 0 0 20px rgba(255, 215, 0, 0.5), 0 0 30px rgba(255, 215, 0, 0 );
             position: relative;
@@ -261,7 +265,7 @@
         }
         
         .subtitle {
-            font-size: 1.8rem;
+            font-size: 2.5rem; /* THAY ĐỔI: Tăng kích thước chữ */
             margin-bottom: 10px;
             position: relative;
             color: #e0e0ff;
@@ -283,7 +287,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 80vh;
+            min-height: 100vh; /* THAY ĐỔI: Chiều cao full màn hình */
             padding: 80px 20px;
             flex-direction: column;
             gap: 100px;
@@ -291,7 +295,7 @@
         }
         
         .section-title {
-            font-size: 2.8rem;
+            font-size: 3.5rem; /* THAY ĐỔI: Tăng kích thước chữ */
             text-align: center;
             margin-bottom: 60px;
             background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
@@ -319,7 +323,7 @@
         
         .section-title i {
             margin-right: 15px;
-            font-size: 2.5rem;
+            font-size: 3rem; /* THAY ĐỔI: Tăng kích thước icon */
             vertical-align: middle;
         }
         
@@ -391,7 +395,7 @@
         }
         
         .large-year .year-period {
-            font-size: 2.2rem;
+            font-size: 2.5rem; /* THAY ĐỔI: Tăng kích thước chữ */
             margin-bottom: 12px;
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
@@ -400,7 +404,7 @@
         }
         
         .large-year .year-label {
-            font-size: 1.3rem;
+            font-size: 1.5rem; /* THAY ĐỔI: Tăng kích thước chữ */
             opacity: 0.9;
             color: #e0e0ff;
             font-weight: 500;
@@ -478,7 +482,7 @@
             letter-spacing: 1px;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
             line-height: 1.2;
-            font-size: 2.2rem;
+            font-size: 2.5rem; /* THAY ĐỔI: Tăng kích thước chữ */
         }
         
         /* ===== YEAR BUTTONS CONTAINER ===== */
