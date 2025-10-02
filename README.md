@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinh Danh Học Sinh Xuất Sắc - 20 Năm học</title>
+    <title>Bảng Vinh Danh - 20 Năm Thành Tích Rực Rỡ</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
@@ -1286,11 +1286,6 @@
                         <div class="year-icon"><i class="fas fa-laptop-code"></i></div>
                         <div class="year-period">2020-2025</div>
                         <div class="year-label">Giai đoạn Hiện đại</div>
-                    </div>
-                    <div class="large-year enhanced-card magic-button" data-year="2025-2030">
-                        <div class="year-icon"><i class="fas fa-rocket"></i></div>
-                        <div class="year-period">2025-2030</div>
-                        <div class="year-label">Giai đoạn Tương lai</div>
                     </div>
                 </div>
             </div>
