@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinh Danh Học Sinh Xuất Sắc - 20 Năm học</title>
+    <title>Honor Board</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
@@ -237,7 +238,7 @@
         }
         
         .glowing-text {
-            font-size: 4rem; /* Giảm từ 5rem xuống 4rem */
+            font-size: 4rem;
             margin-bottom: 20px;
             text-shadow: 0 0 10px rgba(254 , 224 , 255 , 0 ), 0 0 20px rgba(255, 215, 0, 0.5), 0 0 30px rgba(255, 215, 0, 0 );
             position: relative;
@@ -260,7 +261,7 @@
         }
         
         .subtitle {
-            font-size: 1.8rem; /* Giảm từ 2.2rem xuống 1.8rem */
+            font-size: 1.8rem;
             margin-bottom: 10px;
             position: relative;
             color: #e0e0ff;
@@ -290,7 +291,7 @@
         }
         
         .section-title {
-            font-size: 2.8rem; /* Giảm từ 3.5rem xuống 2.8rem */
+            font-size: 2.8rem;
             text-align: center;
             margin-bottom: 60px;
             background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
@@ -318,7 +319,7 @@
         
         .section-title i {
             margin-right: 15px;
-            font-size: 2.5rem; /* Giảm từ 3rem xuống 2.5rem */
+            font-size: 2.5rem;
             vertical-align: middle;
         }
         
@@ -342,7 +343,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-size: 2.2rem; /* Giảm từ 2.8rem xuống 2.2rem */
+            font-size: 2.2rem;
             font-weight: bold;
             border: 2px solid rgba(255, 215, 0, 0.4);
             transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -376,8 +377,8 @@
         }
         
         .large-year .year-icon {
-            font-size: 5rem; /* Giảm từ 7rem xuống 5rem */
-            margin-bottom: 25px; /* Giảm từ 30px xuống 25px */
+            font-size: 5rem;
+            margin-bottom: 25px;
             color: #FFD700;
             text-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
             filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.5));
@@ -390,8 +391,8 @@
         }
         
         .large-year .year-period {
-            font-size: 2.2rem; /* Giảm từ 3rem xuống 2.2rem */
-            margin-bottom: 12px; /* Giảm từ 15px xuống 12px */
+            font-size: 2.2rem;
+            margin-bottom: 12px;
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -399,7 +400,7 @@
         }
         
         .large-year .year-label {
-            font-size: 1.3rem; /* Giảm từ 1.6rem xuống 1.3rem */
+            font-size: 1.3rem;
             opacity: 0.9;
             color: #e0e0ff;
             font-weight: 500;
@@ -421,7 +422,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-size: 2.2rem; /* Giảm từ 3rem xuống 2.2rem */
+            font-size: 2.2rem;
             font-weight: bold;
             border: 4px solid rgba(255, 215, 0, 0.7);
             transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -456,8 +457,8 @@
         }
         
         .masters-phd-button .button-icon {
-            font-size: 4rem; /* Giảm từ 5.5rem xuống 4rem */
-            margin-bottom: 15px; /* Giảm từ 20px xuống 15px */
+            font-size: 4rem;
+            margin-bottom: 15px;
             color: #FFD700;
             text-shadow: 0 0 30px rgba(255, 215, 0, 0.9);
             filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.7));
@@ -477,7 +478,7 @@
             letter-spacing: 1px;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
             line-height: 1.2;
-            font-size: 2.2rem; /* Thêm font-size để đảm bảo nhất quán */
+            font-size: 2.2rem;
         }
         
         /* ===== YEAR BUTTONS CONTAINER ===== */
@@ -496,7 +497,7 @@
         }
         
         .year-buttons-title {
-            font-size: 2.5rem; /* Giảm từ 3rem xuống 2.5rem */
+            font-size: 2.5rem;
             margin-bottom: 40px;
             text-align: center;
             background: linear-gradient(45deg, #FFD700, #FFA500);
@@ -517,14 +518,14 @@
         .year-button {
             background: linear-gradient(135deg, rgba(58, 109, 201, 0.8), rgba(42, 77, 155, 0.9));
             border-radius: 15px;
-            padding: 20px 30px; /* Giảm padding từ 25px 35px xuống 20px 30px */
-            font-size: 1.5rem; /* Giảm từ 1.8rem xuống 1.5rem */
+            padding: 20px 30px;
+            font-size: 1.5rem;
             font-weight: bold;
             border: 2px solid rgba(255, 215, 0, 0.4);
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 215, 0, 0.2);
             cursor: pointer;
-            min-width: 160px; /* Giảm từ 180px xuống 160px */
+            min-width: 160px;
             text-align: center;
             position: relative;
             overflow: hidden;
@@ -555,13 +556,13 @@
         .back-button {
             background: linear-gradient(135deg, rgba(255, 140, 66, 0.9), rgba(232, 106, 51, 0.9));
             margin-top: 40px;
-            padding: 15px 30px; /* Giảm từ 18px 35px xuống 15px 30px */
+            padding: 15px 30px;
             border-radius: 12px;
             font-weight: bold;
             cursor: pointer;
             border: none;
             color: #F8F6F2;
-            font-size: 1.3rem; /* Giảm từ 1.5rem xuống 1.3rem */
+            font-size: 1.3rem;
             transition: all 0.4s;
             border: 2px solid rgba(255, 215, 0, 0.4);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -582,7 +583,7 @@
         }
         
         .student-page h2 {
-            font-size: 2.8rem; /* Giảm từ 3.5rem xuống 2.8rem */
+            font-size: 2.8rem;
             margin-bottom: 50px;
             background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
             -webkit-background-clip: text;
@@ -605,7 +606,7 @@
         .student-card {
             background: linear-gradient(135deg, rgba(58, 109, 201, 0.7), rgba(42, 77, 155, 0.8));
             border-radius: 20px;
-            padding: 30px; /* Giảm từ 35px xuống 30px */
+            padding: 30px;
             border: 2px solid rgba(255, 215, 0, 0.4);
             transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             cursor: pointer;
@@ -613,7 +614,7 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
-            min-height: 380px; /* Giảm từ 420px xuống 380px */
+            min-height: 380px;
             justify-content: space-between;
             position: relative;
             overflow: hidden;
@@ -642,18 +643,18 @@
         }
         
         .student-image {
-            width: 140px; /* Giảm từ 160px xuống 140px */
-            height: 140px; /* Giảm từ 160px xuống 140px */
+            width: 140px;
+            height: 140px;
             border-radius: 50%;
             object-fit: cover;
             border: 3px solid rgba(255, 215, 0, 0.5);
-            margin-bottom: 20px; /* Giảm từ 25px xuống 20px */
+            margin-bottom: 20px;
             box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
         }
         
         .student-card h3 {
-            font-size: 1.8rem; /* Giảm từ 2rem xuống 1.8rem */
-            margin-bottom: 12px; /* Giảm từ 15px xuống 12px */
+            font-size: 1.8rem;
+            margin-bottom: 12px;
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -661,14 +662,14 @@
         }
         
         .student-card p {
-            margin-bottom: 8px; /* Giảm từ 10px xuống 8px */
-            font-size: 1.1rem; /* Giảm từ 1.3rem xuống 1.1rem */
+            margin-bottom: 8px;
+            font-size: 1.1rem;
             color: #e0e0ff;
         }
         
         .student-icon {
-            font-size: 2.5rem; /* Giảm từ 3rem xuống 2.5rem */
-            margin-bottom: 15px; /* Giảm từ 20px xuống 15px */
+            font-size: 2.5rem;
+            margin-bottom: 15px;
             color: #FFD700;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
             filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.5));
@@ -677,13 +678,13 @@
         .back-to-years {
             background: linear-gradient(135deg, rgba(58, 109, 201, 0.9), rgba(42, 77, 155, 0.9));
             margin-top: 50px;
-            padding: 15px 35px; /* Giảm từ 18px 40px xuống 15px 35px */
+            padding: 15px 35px;
             border-radius: 12px;
             font-weight: bold;
             cursor: pointer;
             border: none;
             color: #F8F6F2;
-            font-size: 1.3rem; /* Giảm từ 1.5rem xuống 1.3rem */
+            font-size: 1.3rem;
             transition: all 0.4s;
             border: 2px solid rgba(255, 215, 0, 0.4);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -704,7 +705,7 @@
         }
         
         .masters-phd-page h2 {
-            font-size: 2.8rem; /* Giảm từ 3.5rem xuống 2.8rem */
+            font-size: 2.8rem;
             margin-bottom: 50px;
             background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
             -webkit-background-clip: text;
@@ -727,7 +728,7 @@
         .graduate-card {
             background: linear-gradient(135deg, rgba(255, 140, 66, 0.7), rgba(232, 106, 51, 0.8));
             border-radius: 20px;
-            padding: 35px; /* Giảm từ 40px xuống 35px */
+            padding: 35px;
             border: 2px solid rgba(255, 215, 0, 0.5);
             transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             cursor: pointer;
@@ -735,7 +736,7 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
-            min-height: 420px; /* Giảm từ 480px xuống 420px */
+            min-height: 420px;
             justify-content: space-between;
             position: relative;
             overflow: hidden;
@@ -764,18 +765,18 @@
         }
         
         .graduate-image {
-            width: 160px; /* Giảm từ 180px xuống 160px */
-            height: 160px; /* Giảm từ 180px xuống 160px */
+            width: 160px;
+            height: 160px;
             border-radius: 50%;
             object-fit: cover;
             border: 3px solid rgba(255, 215, 0, 0.6);
-            margin-bottom: 20px; /* Giảm từ 25px xuống 20px */
+            margin-bottom: 20px;
             box-shadow: 0 0 25px rgba(255, 215, 0, 0.5);
         }
         
         .graduate-card h3 {
-            font-size: 1.9rem; /* Giảm từ 2.2rem xuống 1.9rem */
-            margin-bottom: 12px; /* Giảm từ 15px xuống 12px */
+            font-size: 1.9rem;
+            margin-bottom: 12px;
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -784,24 +785,24 @@
         
         .degree-badge {
             background: linear-gradient(135deg, #FF8C42, #E86A33);
-            padding: 8px 20px; /* Giảm từ 10px 25px xuống 8px 20px */
+            padding: 8px 20px;
             border-radius: 25px;
             font-weight: bold;
-            margin-bottom: 15px; /* Giảm từ 20px xuống 15px */
-            font-size: 1.2rem; /* Giảm từ 1.4rem xuống 1.2rem */
+            margin-bottom: 15px;
+            font-size: 1.2rem;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
             border: 1px solid rgba(255, 215, 0, 0.5);
         }
         
         .graduate-card p {
-            margin-bottom: 10px; /* Giảm từ 12px xuống 10px */
-            font-size: 1.1rem; /* Giảm từ 1.3rem xuống 1.1rem */
+            margin-bottom: 10px;
+            font-size: 1.1rem;
             color: #fff;
         }
         
         .graduate-icon {
-            font-size: 3rem; /* Giảm từ 3.5rem xuống 3rem */
-            margin-bottom: 20px; /* Giảm từ 25px xuống 20px */
+            font-size: 3rem;
+            margin-bottom: 20px;
             color: #FFD700;
             text-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
             filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.5));
@@ -810,13 +811,13 @@
         .back-to-main {
             background: linear-gradient(135deg, rgba(58, 109, 201, 0.9), rgba(42, 77, 155, 0.9));
             margin-top: 50px;
-            padding: 15px 35px; /* Giảm từ 18px 40px xuống 15px 35px */
+            padding: 15px 35px;
             border-radius: 12px;
             font-weight: bold;
             cursor: pointer;
             border: none;
             color: #F8F6F2;
-            font-size: 1.3rem; /* Giảm từ 1.5rem xuống 1.3rem */
+            font-size: 1.3rem;
             transition: all 0.4s;
             border: 2px solid rgba(255, 215, 0, 0.4);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -845,7 +846,7 @@
         .modal-content {
             background: linear-gradient(135deg, rgba(20, 40, 80, 0.95), rgba(42, 77, 155, 0.95));
             border-radius: 25px;
-            padding: 35px; /* Giảm từ 40px xuống 35px */
+            padding: 35px;
             max-width: 800px;
             width: 100%;
             max-height: 90vh;
@@ -871,7 +872,7 @@
             position: absolute;
             top: 20px;
             right: 25px;
-            font-size: 2.2rem; /* Giảm từ 2.5rem xuống 2.2rem */
+            font-size: 2.2rem;
             cursor: pointer;
             color: #FFD700;
             transition: transform 0.3s;
@@ -884,15 +885,15 @@
         
         .modal-header {
             text-align: center;
-            margin-bottom: 25px; /* Giảm từ 30px xuống 25px */
+            margin-bottom: 25px;
         }
         
         .modal-header h3 {
-            font-size: 2.2rem; /* Giảm từ 2.5rem xuống 2.2rem */
+            font-size: 2.2rem;
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-bottom: 12px; /* Giảm từ 15px xuống 12px */
+            margin-bottom: 12px;
             font-weight: 700;
         }
         
@@ -900,12 +901,12 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 20px; /* Giảm từ 25px xuống 20px */
+            gap: 20px;
         }
         
         .modal-image {
-            width: 200px; /* Giảm từ 220px xuống 200px */
-            height: 200px; /* Giảm từ 220px xuống 200px */
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
             object-fit: cover;
             border: 4px solid rgba(255, 215, 0, 0.6);
@@ -917,14 +918,14 @@
             text-align: left;
             background: rgba(255, 255, 255, 0.05);
             border-radius: 15px;
-            padding: 20px; /* Giảm từ 25px xuống 20px */
+            padding: 20px;
             border: 1px solid rgba(255, 215, 0, 0.3);
         }
         
         .modal-info p {
-            margin-bottom: 10px; /* Giảm từ 12px xuống 10px */
-            font-size: 1.1rem; /* Giảm từ 1.3rem xuống 1.1rem */
-            padding: 6px 0; /* Giảm từ 8px 0 xuống 6px 0 */
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+            padding: 6px 0;
             border-bottom: 1px solid rgba(255, 215, 0, 0.2);
         }
         
@@ -941,7 +942,7 @@
             background: rgba(15, 30, 60, 0.8);
             color: #b0b0ff;
             border-top: 1px solid rgba(255, 215, 0, 0.2);
-            font-size: 1.1rem; /* Giảm từ 1.2rem xuống 1.1rem */
+            font-size: 1.1rem;
             width: 100%;
         }
         
@@ -1074,17 +1075,17 @@
             }
             
             .large-year .year-period {
-                font-size: 2rem; /* Giảm từ 2.5rem xuống 2rem */
+                font-size: 2rem;
             }
             
             .masters-phd-button {
                 width: 500px;
                 height: 200px;
-                font-size: 2rem; /* Giảm từ 2.5rem xuống 2rem */
+                font-size: 2rem;
             }
             
             .masters-phd-button .button-icon {
-                font-size: 3.5rem; /* Giảm từ 4.5rem xuống 3.5rem */
+                font-size: 3.5rem;
             }
         }
         
@@ -1096,11 +1097,11 @@
             }
             
             .glowing-text {
-                font-size: 2.5rem; /* Giảm từ 3rem xuống 2.5rem */
+                font-size: 2.5rem;
             }
             
             .subtitle {
-                font-size: 1.4rem; /* Giảm từ 1.6rem xuống 1.4rem */
+                font-size: 1.4rem;
             }
             
             .large-years {
@@ -1114,27 +1115,27 @@
             }
             
             .large-year .year-period {
-                font-size: 1.8rem; /* Giảm từ 2.2rem xuống 1.8rem */
+                font-size: 1.8rem;
             }
             
             .large-year .year-label {
-                font-size: 1.1rem; /* Giảm từ 1.3rem xuống 1.1rem */
+                font-size: 1.1rem;
             }
             
             .masters-phd-button {
                 width: 350px;
                 height: 160px;
-                font-size: 1.8rem; /* Giảm từ 2.2rem xuống 1.8rem */
+                font-size: 1.8rem;
                 padding: 30px;
             }
             
             .masters-phd-button .button-icon {
-                font-size: 3.5rem; /* Giảm từ 4rem xuống 3.5rem */
+                font-size: 3.5rem;
                 margin-bottom: 15px;
             }
             
             .section-title {
-                font-size: 2.2rem; /* Giảm từ 2.5rem xuống 2.2rem */
+                font-size: 2.2rem;
             }
             
             .year-buttons {
@@ -1160,11 +1161,11 @@
             }
             
             .glowing-text {
-                font-size: 2rem; /* Giảm từ 2.2rem xuống 2rem */
+                font-size: 2rem;
             }
             
             .subtitle {
-                font-size: 1.2rem; /* Giảm từ 1.3rem xuống 1.2rem */
+                font-size: 1.2rem;
             }
             
             .large-year {
@@ -1173,27 +1174,27 @@
             }
             
             .large-year .year-period {
-                font-size: 1.6rem; /* Giảm từ 2rem xuống 1.6rem */
+                font-size: 1.6rem;
             }
             
             .large-year .year-icon {
-                font-size: 4rem; /* Giảm từ 5rem xuống 4rem */
+                font-size: 4rem;
             }
             
             .masters-phd-button {
                 width: 300px;
                 height: 140px;
-                font-size: 1.6rem; /* Giảm từ 1.8rem xuống 1.6rem */
+                font-size: 1.6rem;
                 padding: 25px;
             }
             
             .masters-phd-button .button-icon {
-                font-size: 3rem; /* Giảm từ 3.5rem xuống 3rem */
+                font-size: 3rem;
                 margin-bottom: 10px;
             }
             
             .section-title {
-                font-size: 1.8rem; /* Giảm từ 2rem xuống 1.8rem */
+                font-size: 1.8rem;
             }
             
             .modal-content {
@@ -1238,8 +1239,8 @@
                 <div class="header-icon">
                     <i class="fas fa-trophy"></i>
                 </div>
-                <h1 class="glowing-text typewriter">BẢNG VINH DANH</h1>
-                <div class="subtitle">20 NĂM HỌC THÀNH TÍCH RỰC RỠ</div>
+                <h1 class="glowing-text typewriter">HONOR BOARD</h1>
+                <div class="subtitle">20 YEARS OF EXCELLENCE</div>
             </div>
             <!-- ĐÃ ẨN LOGO CÓ CHỮ -->
         </header>
@@ -1249,33 +1250,33 @@
             <!-- Mảng 1: Vinh danh học sinh giỏi -->
             <div class="students-section">
                 <h2 class="section-title">
-                    <i class="fas fa-crown"></i> VINH DANH HỌC SINH CÓ THÀNH TÍCH CAO 
+                    <i class="fas fa-crown"></i> TOP STUDENTS HONOR
                 </h2>
                 <div class="large-years">
                     <div class="large-year enhanced-card magic-button" data-year="2005-2010">
                         <div class="year-icon"><i class="fas fa-seedling"></i></div>
                         <div class="year-period">2005-2010</div>
-                        <div class="year-label">Giai đoạn Khởi đầu</div>
+                        <div class="year-label">Beginning Phase</div>
                     </div>
                     <div class="large-year enhanced-card magic-button" data-year="2010-2015">
                         <div class="year-icon"><i class="fas fa-chart-line"></i></div>
                         <div class="year-period">2010-2015</div>
-                        <div class="year-label">Giai đoạn Phát triển</div>
+                        <div class="year-label">Development Phase</div>
                     </div>
                     <div class="large-year enhanced-card magic-button" data-year="2015-2020">
                         <div class="year-icon"><i class="fas fa-user-graduate"></i></div>
                         <div class="year-period">2015-2020</div>
-                        <div class="year-label">Giai đoạn Trưởng thành</div>
+                        <div class="year-label">Maturity Phase</div>
                     </div>
                     <div class="large-year enhanced-card magic-button" data-year="2020-2025">
                         <div class="year-icon"><i class="fas fa-laptop-code"></i></div>
                         <div class="year-period">2020-2025</div>
-                        <div class="year-label">Giai đoạn Hiện đại</div>
+                        <div class="year-label">Modern Phase</div>
                     </div>
                     <div class="large-year enhanced-card magic-button" data-year="2025-2030">
                         <div class="year-icon"><i class="fas fa-rocket"></i></div>
                         <div class="year-period">2025-2030</div>
-                        <div class="year-label">Giai đoạn Tương lai</div>
+                        <div class="year-label">Future Phase</div>
                     </div>
                 </div>
             </div>
@@ -1283,34 +1284,34 @@
             <!-- Mảng 2: Vinh danh Thạc sĩ, Tiến sĩ - NÚT LỚN HƠN với chữ nhỏ hơn -->
             <div class="masters-phd-section">
                 <h2 class="section-title">
-                    <i class="fas fa-gem"></i> VINH DANH THẠC SĨ - TIẾN SĨ
+                    <i class="fas fa-gem"></i> MASTERS - DOCTORATES HONOR
                 </h2>
                 <div class="masters-phd-button enhanced-card magic-button" id="mastersPhdButton">
                     <div class="button-icon"><i class="fas fa-award"></i></div>
-                    <div class="button-text">KHÁM PHÁ DANH SÁCH</div>
+                    <div class="button-text">EXPLORE THE LIST</div>
                 </div>
             </div>
         </div>
         
         <!-- Container for year buttons -->
         <div class="year-buttons-container page-transition" id="yearButtonsContainer">
-            <h2 class="year-buttons-title" id="yearButtonsTitle">Học sinh xuất sắc năm học</h2>
+            <h2 class="year-buttons-title" id="yearButtonsTitle">Outstanding students of academic year</h2>
             <div class="year-buttons" id="yearButtons"></div>
-            <button class="back-button magic-button" id="backButton">Quay lại</button>
+            <button class="back-button magic-button" id="backButton">Back</button>
         </div>
         
         <!-- Container for student page -->
         <div class="student-page page-transition" id="studentPage">
-            <h2 id="studentPageTitle">VINH DANH HỌC SINH XUẤT SẮC NĂM HỌC</h2>
+            <h2 id="studentPageTitle">HONORING OUTSTANDING STUDENTS OF ACADEMIC YEAR</h2>
             <div class="students-list" id="studentsList"></div>
-            <button class="back-to-years magic-button" id="backToYears">Quay lại danh sách năm học</button>
+            <button class="back-to-years magic-button" id="backToYears">Back to year list</button>
         </div>
         
         <!-- TRANG THẠC SĨ, TIẾN SĨ -->
         <div class="masters-phd-page page-transition" id="mastersPhdPage">
-            <h2><i class="fas fa-gem"></i> VINH DANH CỰU HỌC SINH ĐẠT THẠC SĨ - TIẾN SĨ</h2>
+            <h2><i class="fas fa-gem"></i> HONORING ALUMNI WITH MASTERS - DOCTORATES</h2>
             <div class="graduates-list" id="graduatesList"></div>
-            <button class="back-to-main magic-button" id="backToMain">Quay lại trang chính</button>
+            <button class="back-to-main magic-button" id="backToMain">Back to main page</button>
         </div>
         
         <!-- Modal for details -->
@@ -1318,10 +1319,10 @@
             <div class="modal-content">
                 <span class="close-modal" id="closeModal">&times;</span>
                 <div class="modal-header">
-                    <h3 id="modalPersonName">Học sinh 1</h3>
+                    <h3 id="modalPersonName">Student 1</h3>
                 </div>
                 <div class="modal-body">
-                    <img src="" alt="Ảnh" class="modal-image image-3d" id="modalPersonImage">
+                    <img src="" alt="Image" class="modal-image image-3d" id="modalPersonImage">
                     <div class="modal-info" id="modalPersonInfo">
                         <!-- Information will be inserted here -->
                     </div>
@@ -1330,7 +1331,7 @@
         </div>
         
         <footer>
-            <p>Trang web vinh danh học sinh xuất sắc - <span class="footer-text">20 năm thành tích rực rỡ</span></p>
+            <p>Honor board for outstanding students - <span class="footer-text">20 years of excellence</span></p>
         </footer>
     </div>
 
@@ -1416,7 +1417,7 @@
             yearButtonsContainer.style.display = 'flex';
             
             // Cập nhật tiêu đề
-            document.getElementById('yearButtonsTitle').textContent = `Học sinh xuất sắc giai đoạn ${yearPeriod}`;
+            document.getElementById('yearButtonsTitle').textContent = `Outstanding students of ${yearPeriod} period`;
             
             // Tạo các nút năm học
             const yearButtons = document.getElementById('yearButtons');
@@ -1430,7 +1431,7 @@
                 const nextYear = year + 1;
                 const yearButton = document.createElement('div');
                 yearButton.className = 'year-button enhanced-card magic-button';
-                yearButton.textContent = `Năm học ${year}-${nextYear}`;
+                yearButton.textContent = `Academic Year ${year}-${nextYear}`;
                 yearButton.addEventListener('click', function() {
                     showLoading();
                     setTimeout(() => {
@@ -1453,7 +1454,7 @@
             studentPage.style.display = 'block';
             
             // Cập nhật tiêu đề
-            document.getElementById('studentPageTitle').textContent = `VINH DANH HỌC SINH XUẤT SẮC NĂM HỌC ${year}`;
+            document.getElementById('studentPageTitle').textContent = `HONORING OUTSTANDING STUDENTS OF ACADEMIC YEAR ${year}`;
             
             // Tạo danh sách học sinh mẫu
             const studentsList = document.getElementById('studentsList');
@@ -1465,11 +1466,11 @@
                 studentCard.className = 'student-card enhanced-card';
                 studentCard.innerHTML = `
                     <div class="student-icon"><i class="fas fa-star"></i></div>
-                    <img src="https://via.placeholder.com/160x160/3a6dc9/FFFFFF?text=HS+${i}" alt="Học sinh ${i}" class="student-image image-3d">
-                    <h3>Học sinh ${i}</h3>
-                    <p>Thành tích: Giải Nhất môn Toán</p>
-                    <p>Lớp: 9A${i}</p>
-                    <p>Điểm TB: 9.${i}</p>
+                    <img src="https://via.placeholder.com/160x160/3a6dc9/FFFFFF?text=Student+${i}" alt="Student ${i}" class="student-image image-3d">
+                    <h3>Student ${i}</h3>
+                    <p>Achievement: First Prize in Mathematics</p>
+                    <p>Class: 9A${i}</p>
+                    <p>Average Score: 9.${i}</p>
                 `;
                 
                 // Thêm sự kiện click để hiển thị modal
@@ -1499,56 +1500,56 @@
             // Danh sách các học vị và thông tin mẫu
             const graduates = [
                 {
-                    name: "Nguyễn Văn A",
-                    degree: "Tiến sĩ",
-                    major: "Khoa học Máy tính",
-                    workplace: "Đại học Quốc gia Hà Nội",
-                    achievement: "Nghiên cứu về Trí tuệ Nhân tạo",
+                    name: "John Smith",
+                    degree: "Doctorate",
+                    major: "Computer Science",
+                    workplace: "National University",
+                    achievement: "Research in Artificial Intelligence",
                     year: 2010,
                     icon: "fas fa-user-graduate"
                 },
                 {
-                    name: "Trần Thị B",
-                    degree: "Thạc sĩ", 
-                    major: "Quản trị Kinh doanh",
-                    workplace: "Tập đoàn FPT",
-                    achievement: "Quản lý dự án phần mềm",
+                    name: "Jane Doe", 
+                    degree: "Master's Degree", 
+                    major: "Business Administration",
+                    workplace: "FPT Corporation",
+                    achievement: "Software Project Management",
                     year: 2012,
                     icon: "fas fa-briefcase"
                 },
                 {
-                    name: "Lê Văn C",
-                    degree: "Tiến sĩ",
-                    major: "Y học",
-                    workplace: "Bệnh viện Bạch Mai",
-                    achievement: "Nghiên cứu điều trị ung thư",
+                    name: "Robert Johnson",
+                    degree: "Doctorate",
+                    major: "Medicine",
+                    workplace: "Bach Mai Hospital",
+                    achievement: "Cancer Treatment Research",
                     year: 2015,
                     icon: "fas fa-user-md"
                 },
                 {
-                    name: "Phạm Thị D",
-                    degree: "Thạc sĩ",
-                    major: "Luật học",
-                    workplace: "Văn phòng Luật sư Dragon",
-                    achievement: "Chuyên gia luật quốc tế",
+                    name: "Emily Williams",
+                    degree: "Master's Degree",
+                    major: "Law",
+                    workplace: "Dragon Law Office",
+                    achievement: "International Law Specialist",
                     year: 2013,
                     icon: "fas fa-balance-scale"
                 },
                 {
-                    name: "Hoàng Văn E",
-                    degree: "Tiến sĩ",
-                    major: "Vật lý học",
-                    workplace: "Viện Hàn lâm Khoa học",
-                    achievement: "Nghiên cứu vật liệu mới",
+                    name: "Michael Brown",
+                    degree: "Doctorate",
+                    major: "Physics",
+                    workplace: "Academy of Sciences",
+                    achievement: "New Materials Research",
                     year: 2018,
                     icon: "fas fa-atom"
                 },
                 {
-                    name: "Vũ Thị F",
-                    degree: "Thạc sĩ",
-                    major: "Ngôn ngữ học",
-                    workplace: "Đại học Sư phạm Hà Nội",
-                    achievement: "Giáo viên xuất sắc",
+                    name: "Sarah Davis",
+                    degree: "Master's Degree",
+                    major: "Linguistics",
+                    workplace: "Hanoi Pedagogical University",
+                    achievement: "Outstanding Teacher",
                     year: 2016,
                     icon: "fas fa-chalkboard-teacher"
                 }
@@ -1563,9 +1564,9 @@
                     <img src="https://via.placeholder.com/180x180/FF8C42/FFFFFF?text=${graduate.name.split(' ').pop()}" alt="${graduate.name}" class="graduate-image image-3d">
                     <div class="degree-badge">${graduate.degree}</div>
                     <h3>${graduate.name}</h3>
-                    <p>Chuyên ngành: ${graduate.major}</p>
-                    <p>Nơi công tác: ${graduate.workplace}</p>
-                    <p>Tốt nghiệp: ${graduate.year}</p>
+                    <p>Major: ${graduate.major}</p>
+                    <p>Workplace: ${graduate.workplace}</p>
+                    <p>Graduated: ${graduate.year}</p>
                 `;
                 
                 // Thêm sự kiện click để hiển thị modal
@@ -1586,16 +1587,16 @@
             
             if (type === 'student') {
                 // Hiển thị thông tin học sinh
-                personName.textContent = `Học sinh ${id}`;
-                personImage.src = `https://via.placeholder.com/220x220/3a6dc9/FFFFFF?text=HS+${id}`;
-                personImage.alt = `Học sinh ${id}`;
+                personName.textContent = `Student ${id}`;
+                personImage.src = `https://via.placeholder.com/220x220/3a6dc9/FFFFFF?text=Student+${id}`;
+                personImage.alt = `Student ${id}`;
                 
                 personInfo.innerHTML = `
-                    <p><strong>Năm học:</strong> ${data}</p>
-                    <p><strong>Lớp:</strong> 9A${id}</p>
-                    <p><strong>Thành tích:</strong> Giải Nhất môn Toán</p>
-                    <p><strong>Điểm trung bình:</strong> 9.${id}</p>
-                    <p><strong>Ghi chú:</strong> Học sinh xuất sắc toàn diện</p>
+                    <p><strong>Academic Year:</strong> ${data}</p>
+                    <p><strong>Class:</strong> 9A${id}</p>
+                    <p><strong>Achievement:</strong> First Prize in Mathematics</p>
+                    <p><strong>Average Score:</strong> 9.${id}</p>
+                    <p><strong>Note:</strong> Outstanding all-around student</p>
                 `;
             } else {
                 // Hiển thị thông tin cựu học sinh
@@ -1605,12 +1606,12 @@
                 personImage.alt = graduate.name;
                 
                 personInfo.innerHTML = `
-                    <p><strong>Học vị:</strong> ${graduate.degree}</p>
-                    <p><strong>Chuyên ngành:</strong> ${graduate.major}</p>
-                    <p><strong>Nơi công tác:</strong> ${graduate.workplace}</p>
-                    <p><strong>Năm tốt nghiệp:</strong> ${graduate.year}</p>
-                    <p><strong>Thành tích nổi bật:</strong> ${graduate.achievement}</p>
-                    <p><strong>Ghi chú:</strong> Cựu học sinh xuất sắc của trường</p>
+                    <p><strong>Degree:</strong> ${graduate.degree}</p>
+                    <p><strong>Major:</strong> ${graduate.major}</p>
+                    <p><strong>Workplace:</strong> ${graduate.workplace}</p>
+                    <p><strong>Graduation Year:</strong> ${graduate.year}</p>
+                    <p><strong>Notable Achievement:</strong> ${graduate.achievement}</p>
+                    <p><strong>Note:</strong> Outstanding alumni of the school</p>
                 `;
             }
             
