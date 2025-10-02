@@ -238,7 +238,7 @@
         }
         
         .glowing-text {
-            font-size: 5rem;
+            font-size: 4rem; /* Giảm từ 5rem xuống 4rem */
             margin-bottom: 20px;
             text-shadow: 0 0 10px rgba(254 , 224 , 255 , 0 ), 0 0 20px rgba(255, 215, 0, 0.5), 0 0 30px rgba(255, 215, 0, 0 );
             position: relative;
@@ -261,7 +261,7 @@
         }
         
         .subtitle {
-            font-size: 2.2rem;
+            font-size: 1.8rem; /* Giảm từ 2.2rem xuống 1.8rem */
             margin-bottom: 10px;
             position: relative;
             color: #e0e0ff;
@@ -291,7 +291,7 @@
         }
         
         .section-title {
-            font-size: 3.5rem;
+            font-size: 2.8rem; /* Giảm từ 3.5rem xuống 2.8rem */
             text-align: center;
             margin-bottom: 60px;
             background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
@@ -319,7 +319,7 @@
         
         .section-title i {
             margin-right: 15px;
-            font-size: 3rem;
+            font-size: 2.5rem; /* Giảm từ 3rem xuống 2.5rem */
             vertical-align: middle;
         }
         
@@ -343,7 +343,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-size: 2.8rem;
+            font-size: 2.2rem; /* Giảm từ 2.8rem xuống 2.2rem */
             font-weight: bold;
             border: 2px solid rgba(255, 215, 0, 0.4);
             transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -377,8 +377,8 @@
         }
         
         .large-year .year-icon {
-            font-size: 7rem;
-            margin-bottom: 30px;
+            font-size: 5rem; /* Giảm từ 7rem xuống 5rem */
+            margin-bottom: 25px; /* Giảm từ 30px xuống 25px */
             color: #FFD700;
             text-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
             filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.5));
@@ -391,8 +391,8 @@
         }
         
         .large-year .year-period {
-            font-size: 3rem;
-            margin-bottom: 15px;
+            font-size: 2.2rem; /* Giảm từ 3rem xuống 2.2rem */
+            margin-bottom: 12px; /* Giảm từ 15px xuống 12px */
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -400,7 +400,7 @@
         }
         
         .large-year .year-label {
-            font-size: 1.6rem;
+            font-size: 1.3rem; /* Giảm từ 1.6rem xuống 1.3rem */
             opacity: 0.9;
             color: #e0e0ff;
             font-weight: 500;
@@ -422,7 +422,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-size: 3rem;
+            font-size: 2.2rem; /* Giảm từ 3rem xuống 2.2rem */
             font-weight: bold;
             border: 4px solid rgba(255, 215, 0, 0.7);
             transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -457,8 +457,8 @@
         }
         
         .masters-phd-button .button-icon {
-            font-size: 5.5rem;
-            margin-bottom: 20px;
+            font-size: 4rem; /* Giảm từ 5.5rem xuống 4rem */
+            margin-bottom: 15px; /* Giảm từ 20px xuống 15px */
             color: #FFD700;
             text-shadow: 0 0 30px rgba(255, 215, 0, 0.9);
             filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.7));
@@ -478,6 +478,7 @@
             letter-spacing: 1px;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
             line-height: 1.2;
+            font-size: 2.2rem; /* Thêm font-size để đảm bảo nhất quán */
         }
         
         /* ===== YEAR BUTTONS CONTAINER ===== */
@@ -496,7 +497,7 @@
         }
         
         .year-buttons-title {
-            font-size: 3rem;
+            font-size: 2.5rem; /* Giảm từ 3rem xuống 2.5rem */
             margin-bottom: 40px;
             text-align: center;
             background: linear-gradient(45deg, #FFD700, #FFA500);
@@ -517,14 +518,14 @@
         .year-button {
             background: linear-gradient(135deg, rgba(58, 109, 201, 0.8), rgba(42, 77, 155, 0.9));
             border-radius: 15px;
-            padding: 25px 35px;
-            font-size: 1.8rem;
+            padding: 20px 30px; /* Giảm padding từ 25px 35px xuống 20px 30px */
+            font-size: 1.5rem; /* Giảm từ 1.8rem xuống 1.5rem */
             font-weight: bold;
             border: 2px solid rgba(255, 215, 0, 0.4);
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 215, 0, 0.2);
             cursor: pointer;
-            min-width: 180px;
+            min-width: 160px; /* Giảm từ 180px xuống 160px */
             text-align: center;
             position: relative;
             overflow: hidden;
@@ -555,13 +556,13 @@
         .back-button {
             background: linear-gradient(135deg, rgba(255, 140, 66, 0.9), rgba(232, 106, 51, 0.9));
             margin-top: 40px;
-            padding: 18px 35px;
+            padding: 15px 30px; /* Giảm từ 18px 35px xuống 15px 30px */
             border-radius: 12px;
             font-weight: bold;
             cursor: pointer;
             border: none;
             color: #F8F6F2;
-            font-size: 1.5rem;
+            font-size: 1.3rem; /* Giảm từ 1.5rem xuống 1.3rem */
             transition: all 0.4s;
             border: 2px solid rgba(255, 215, 0, 0.4);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -582,7 +583,7 @@
         }
         
         .student-page h2 {
-            font-size: 3.5rem;
+            font-size: 2.8rem; /* Giảm từ 3.5rem xuống 2.8rem */
             margin-bottom: 50px;
             background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
             -webkit-background-clip: text;
@@ -605,7 +606,7 @@
         .student-card {
             background: linear-gradient(135deg, rgba(58, 109, 201, 0.7), rgba(42, 77, 155, 0.8));
             border-radius: 20px;
-            padding: 35px;
+            padding: 30px; /* Giảm từ 35px xuống 30px */
             border: 2px solid rgba(255, 215, 0, 0.4);
             transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             cursor: pointer;
@@ -613,7 +614,7 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
-            min-height: 420px;
+            min-height: 380px; /* Giảm từ 420px xuống 380px */
             justify-content: space-between;
             position: relative;
             overflow: hidden;
@@ -642,18 +643,18 @@
         }
         
         .student-image {
-            width: 160px;
-            height: 160px;
+            width: 140px; /* Giảm từ 160px xuống 140px */
+            height: 140px; /* Giảm từ 160px xuống 140px */
             border-radius: 50%;
             object-fit: cover;
             border: 3px solid rgba(255, 215, 0, 0.5);
-            margin-bottom: 25px;
+            margin-bottom: 20px; /* Giảm từ 25px xuống 20px */
             box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
         }
         
         .student-card h3 {
-            font-size: 2rem;
-            margin-bottom: 15px;
+            font-size: 1.8rem; /* Giảm từ 2rem xuống 1.8rem */
+            margin-bottom: 12px; /* Giảm từ 15px xuống 12px */
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -661,14 +662,14 @@
         }
         
         .student-card p {
-            margin-bottom: 10px;
-            font-size: 1.3rem;
+            margin-bottom: 8px; /* Giảm từ 10px xuống 8px */
+            font-size: 1.1rem; /* Giảm từ 1.3rem xuống 1.1rem */
             color: #e0e0ff;
         }
         
         .student-icon {
-            font-size: 3rem;
-            margin-bottom: 20px;
+            font-size: 2.5rem; /* Giảm từ 3rem xuống 2.5rem */
+            margin-bottom: 15px; /* Giảm từ 20px xuống 15px */
             color: #FFD700;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
             filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.5));
@@ -677,13 +678,13 @@
         .back-to-years {
             background: linear-gradient(135deg, rgba(58, 109, 201, 0.9), rgba(42, 77, 155, 0.9));
             margin-top: 50px;
-            padding: 18px 40px;
+            padding: 15px 35px; /* Giảm từ 18px 40px xuống 15px 35px */
             border-radius: 12px;
             font-weight: bold;
             cursor: pointer;
             border: none;
             color: #F8F6F2;
-            font-size: 1.5rem;
+            font-size: 1.3rem; /* Giảm từ 1.5rem xuống 1.3rem */
             transition: all 0.4s;
             border: 2px solid rgba(255, 215, 0, 0.4);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -704,7 +705,7 @@
         }
         
         .masters-phd-page h2 {
-            font-size: 3.5rem;
+            font-size: 2.8rem; /* Giảm từ 3.5rem xuống 2.8rem */
             margin-bottom: 50px;
             background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
             -webkit-background-clip: text;
@@ -727,7 +728,7 @@
         .graduate-card {
             background: linear-gradient(135deg, rgba(255, 140, 66, 0.7), rgba(232, 106, 51, 0.8));
             border-radius: 20px;
-            padding: 40px;
+            padding: 35px; /* Giảm từ 40px xuống 35px */
             border: 2px solid rgba(255, 215, 0, 0.5);
             transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             cursor: pointer;
@@ -735,7 +736,7 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
-            min-height: 480px;
+            min-height: 420px; /* Giảm từ 480px xuống 420px */
             justify-content: space-between;
             position: relative;
             overflow: hidden;
@@ -764,18 +765,18 @@
         }
         
         .graduate-image {
-            width: 180px;
-            height: 180px;
+            width: 160px; /* Giảm từ 180px xuống 160px */
+            height: 160px; /* Giảm từ 180px xuống 160px */
             border-radius: 50%;
             object-fit: cover;
             border: 3px solid rgba(255, 215, 0, 0.6);
-            margin-bottom: 25px;
+            margin-bottom: 20px; /* Giảm từ 25px xuống 20px */
             box-shadow: 0 0 25px rgba(255, 215, 0, 0.5);
         }
         
         .graduate-card h3 {
-            font-size: 2.2rem;
-            margin-bottom: 15px;
+            font-size: 1.9rem; /* Giảm từ 2.2rem xuống 1.9rem */
+            margin-bottom: 12px; /* Giảm từ 15px xuống 12px */
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -784,24 +785,24 @@
         
         .degree-badge {
             background: linear-gradient(135deg, #FF8C42, #E86A33);
-            padding: 10px 25px;
+            padding: 8px 20px; /* Giảm từ 10px 25px xuống 8px 20px */
             border-radius: 25px;
             font-weight: bold;
-            margin-bottom: 20px;
-            font-size: 1.4rem;
+            margin-bottom: 15px; /* Giảm từ 20px xuống 15px */
+            font-size: 1.2rem; /* Giảm từ 1.4rem xuống 1.2rem */
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
             border: 1px solid rgba(255, 215, 0, 0.5);
         }
         
         .graduate-card p {
-            margin-bottom: 12px;
-            font-size: 1.3rem;
+            margin-bottom: 10px; /* Giảm từ 12px xuống 10px */
+            font-size: 1.1rem; /* Giảm từ 1.3rem xuống 1.1rem */
             color: #fff;
         }
         
         .graduate-icon {
-            font-size: 3.5rem;
-            margin-bottom: 25px;
+            font-size: 3rem; /* Giảm từ 3.5rem xuống 3rem */
+            margin-bottom: 20px; /* Giảm từ 25px xuống 20px */
             color: #FFD700;
             text-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
             filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.5));
@@ -810,13 +811,13 @@
         .back-to-main {
             background: linear-gradient(135deg, rgba(58, 109, 201, 0.9), rgba(42, 77, 155, 0.9));
             margin-top: 50px;
-            padding: 18px 40px;
+            padding: 15px 35px; /* Giảm từ 18px 40px xuống 15px 35px */
             border-radius: 12px;
             font-weight: bold;
             cursor: pointer;
             border: none;
             color: #F8F6F2;
-            font-size: 1.5rem;
+            font-size: 1.3rem; /* Giảm từ 1.5rem xuống 1.3rem */
             transition: all 0.4s;
             border: 2px solid rgba(255, 215, 0, 0.4);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -845,7 +846,7 @@
         .modal-content {
             background: linear-gradient(135deg, rgba(20, 40, 80, 0.95), rgba(42, 77, 155, 0.95));
             border-radius: 25px;
-            padding: 40px;
+            padding: 35px; /* Giảm từ 40px xuống 35px */
             max-width: 800px;
             width: 100%;
             max-height: 90vh;
@@ -871,7 +872,7 @@
             position: absolute;
             top: 20px;
             right: 25px;
-            font-size: 2.5rem;
+            font-size: 2.2rem; /* Giảm từ 2.5rem xuống 2.2rem */
             cursor: pointer;
             color: #FFD700;
             transition: transform 0.3s;
@@ -884,15 +885,15 @@
         
         .modal-header {
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 25px; /* Giảm từ 30px xuống 25px */
         }
         
         .modal-header h3 {
-            font-size: 2.5rem;
+            font-size: 2.2rem; /* Giảm từ 2.5rem xuống 2.2rem */
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-bottom: 15px;
+            margin-bottom: 12px; /* Giảm từ 15px xuống 12px */
             font-weight: 700;
         }
         
@@ -900,12 +901,12 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 25px;
+            gap: 20px; /* Giảm từ 25px xuống 20px */
         }
         
         .modal-image {
-            width: 220px;
-            height: 220px;
+            width: 200px; /* Giảm từ 220px xuống 200px */
+            height: 200px; /* Giảm từ 220px xuống 200px */
             border-radius: 50%;
             object-fit: cover;
             border: 4px solid rgba(255, 215, 0, 0.6);
@@ -917,14 +918,14 @@
             text-align: left;
             background: rgba(255, 255, 255, 0.05);
             border-radius: 15px;
-            padding: 25px;
+            padding: 20px; /* Giảm từ 25px xuống 20px */
             border: 1px solid rgba(255, 215, 0, 0.3);
         }
         
         .modal-info p {
-            margin-bottom: 12px;
-            font-size: 1.3rem;
-            padding: 8px 0;
+            margin-bottom: 10px; /* Giảm từ 12px xuống 10px */
+            font-size: 1.1rem; /* Giảm từ 1.3rem xuống 1.1rem */
+            padding: 6px 0; /* Giảm từ 8px 0 xuống 6px 0 */
             border-bottom: 1px solid rgba(255, 215, 0, 0.2);
         }
         
@@ -941,7 +942,7 @@
             background: rgba(15, 30, 60, 0.8);
             color: #b0b0ff;
             border-top: 1px solid rgba(255, 215, 0, 0.2);
-            font-size: 1.2rem;
+            font-size: 1.1rem; /* Giảm từ 1.2rem xuống 1.1rem */
             width: 100%;
         }
         
@@ -1074,17 +1075,17 @@
             }
             
             .large-year .year-period {
-                font-size: 2.5rem;
+                font-size: 2rem; /* Giảm từ 2.5rem xuống 2rem */
             }
             
             .masters-phd-button {
                 width: 500px;
                 height: 200px;
-                font-size: 2.5rem;
+                font-size: 2rem; /* Giảm từ 2.5rem xuống 2rem */
             }
             
             .masters-phd-button .button-icon {
-                font-size: 4.5rem;
+                font-size: 3.5rem; /* Giảm từ 4.5rem xuống 3.5rem */
             }
         }
         
@@ -1096,11 +1097,11 @@
             }
             
             .glowing-text {
-                font-size: 3rem;
+                font-size: 2.5rem; /* Giảm từ 3rem xuống 2.5rem */
             }
             
             .subtitle {
-                font-size: 1.6rem;
+                font-size: 1.4rem; /* Giảm từ 1.6rem xuống 1.4rem */
             }
             
             .large-years {
@@ -1114,27 +1115,27 @@
             }
             
             .large-year .year-period {
-                font-size: 2.2rem;
+                font-size: 1.8rem; /* Giảm từ 2.2rem xuống 1.8rem */
             }
             
             .large-year .year-label {
-                font-size: 1.3rem;
+                font-size: 1.1rem; /* Giảm từ 1.3rem xuống 1.1rem */
             }
             
             .masters-phd-button {
                 width: 350px;
                 height: 160px;
-                font-size: 2.2rem;
+                font-size: 1.8rem; /* Giảm từ 2.2rem xuống 1.8rem */
                 padding: 30px;
             }
             
             .masters-phd-button .button-icon {
-                font-size: 4rem;
+                font-size: 3.5rem; /* Giảm từ 4rem xuống 3.5rem */
                 margin-bottom: 15px;
             }
             
             .section-title {
-                font-size: 2.5rem;
+                font-size: 2.2rem; /* Giảm từ 2.5rem xuống 2.2rem */
             }
             
             .year-buttons {
@@ -1160,11 +1161,11 @@
             }
             
             .glowing-text {
-                font-size: 2.2rem;
+                font-size: 2rem; /* Giảm từ 2.2rem xuống 2rem */
             }
             
             .subtitle {
-                font-size: 1.3rem;
+                font-size: 1.2rem; /* Giảm từ 1.3rem xuống 1.2rem */
             }
             
             .large-year {
@@ -1173,27 +1174,27 @@
             }
             
             .large-year .year-period {
-                font-size: 2rem;
+                font-size: 1.6rem; /* Giảm từ 2rem xuống 1.6rem */
             }
             
             .large-year .year-icon {
-                font-size: 5rem;
+                font-size: 4rem; /* Giảm từ 5rem xuống 4rem */
             }
             
             .masters-phd-button {
                 width: 300px;
                 height: 140px;
-                font-size: 1.8rem;
+                font-size: 1.6rem; /* Giảm từ 1.8rem xuống 1.6rem */
                 padding: 25px;
             }
             
             .masters-phd-button .button-icon {
-                font-size: 3.5rem;
+                font-size: 3rem; /* Giảm từ 3.5rem xuống 3rem */
                 margin-bottom: 10px;
             }
             
             .section-title {
-                font-size: 2rem;
+                font-size: 1.8rem; /* Giảm từ 2rem xuống 1.8rem */
             }
             
             .modal-content {
