@@ -1339,6 +1339,603 @@
     </div>
 
     <script>
+        // ===== DỮ LIỆU HỌC SINH THỰC TẾ =====
+        const studentsData = {
+            // ===== 2005-2010 =====
+            "2005-2006": [
+                {
+                    name: "NGUYỄN CÔNG ĐỊNH",
+                    class: "9A",
+                    achievement: "Giải Nhất Vật Lý cấp Huyện, Giải Ba Vật Lý cấp Tỉnh",
+                    teacher: "NGUYỄN THỊ NGÂN",
+                    score: "19"
+                },
+                {
+                    name: "PHẠM THỊ NGỌC MAI",
+                    class: "9A",
+                    achievement: "Giải Nhất Sinh Học cấp Huyện, Giải Nhì Sinh Học cấp Tỉnh",
+                    teacher: "BÙI THỊ TUYẾT",
+                    score: "19"
+                },
+                {
+                    name: "ĐỖ XUÂN TUẤN",
+                    class: "9A",
+                    achievement: "Giải Nhất Thể Dục cấp Huyện",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN THỊ PHƯƠNG ANH",
+                    class: "9B",
+                    achievement: "Giải Ba Thể Dục cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "LÊ THỊ HÀ",
+                    class: "7C",
+                    achievement: "Giải Nhất Thể Dục cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                }
+            ],
+            
+            "2006-2007": [
+                {
+                    name: "NGUYỄN CÔNG ĐỊNH",
+                    class: "9A",
+                    achievement: "Giải Nhất Vật Lý cấp Huyện, Giải Ba Vật Lý cấp Tỉnh",
+                    teacher: "NGUYỄN THỊ NGÂN",
+                    score: "19"
+                },
+                {
+                    name: "PHẠM THỊ NGỌC MAI",
+                    class: "9A",
+                    achievement: "Giải Nhất Sinh Học cấp Huyện, Giải Nhì Sinh Học cấp Tỉnh",
+                    teacher: "BÙI THỊ TUYẾT",
+                    score: "19"
+                },
+                {
+                    name: "ĐỖ XUÂN TUẤN",
+                    class: "9A",
+                    achievement: "Giải Nhất Thể Dục cấp Huyện",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN THỊ PHƯƠNG ANH",
+                    class: "9B",
+                    achievement: "Giải Ba Thể Dục cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "LÊ THỊ HÀ",
+                    class: "7C",
+                    achievement: "Giải Nhất Thể Dục cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                }
+            ],
+            
+            "2007-2008": [
+                {
+                    name: "TRƯƠNG THÀNH CÔNG",
+                    class: "9A",
+                    achievement: "Giải Ba Toán cấp Tỉnh",
+                    teacher: "LÊ THỊ THU NGA",
+                    score: ""
+                },
+                {
+                    name: "ĐỖ VĂN MẠNH",
+                    class: "9B",
+                    achievement: "Giải Ba Vật Lý cấp Tỉnh",
+                    teacher: "NGUYỄN THỊ NGÂN",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN THỊ PHƯƠNG MAI",
+                    class: "9A",
+                    achievement: "Giải Ba Hóa Học cấp Tỉnh",
+                    teacher: "ĐINH THỊ THO",
+                    score: ""
+                }
+            ],
+            
+            "2008-2009": [
+                {
+                    name: "ĐỖ NGỌC TRÂM",
+                    class: "9A",
+                    achievement: "Giải Nhất CASSIO cấp Huyện",
+                    teacher: "LÊ THỊ THU NGA",
+                    score: ""
+                },
+                {
+                    name: "ĐỖ THỊ TRANG DUYÊN",
+                    class: "9A",
+                    achievement: "Giải Nhất Hóa Học cấp Huyện",
+                    teacher: "ĐINH THỊ THO",
+                    score: "18.5"
+                },
+                {
+                    name: "HỒ VIỆT TÍN",
+                    class: "9C",
+                    achievement: "Giải Nhất Hóa Học cấp Huyện",
+                    teacher: "ĐINH THỊ THO",
+                    score: "18"
+                },
+                {
+                    name: "PHẠM MẠNH HÙNG",
+                    class: "9B",
+                    achievement: "Cúp Vô Địch Bóng Rổ Nam cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "VŨ QUANG SƠN",
+                    class: "9B",
+                    achievement: "Cúp Vô Địch Bóng Rổ Nam cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                }
+            ],
+            
+            "2009-2010": [
+                {
+                    name: "NGUYỄN VĂN MẪN",
+                    class: "9A",
+                    achievement: "Giải Nhất Vật Lý cấp Huyện",
+                    teacher: "NGUYỄN THỊ NGÂN",
+                    score: "18.5"
+                },
+                {
+                    name: "ĐẶNG HOÀNG LÂM",
+                    class: "9A",
+                    achievement: "Giải Nhất Sinh Học cấp Huyện, Giải Nhì Sinh Học cấp Tỉnh",
+                    teacher: "BÙI THỊ TUYẾT",
+                    score: "18"
+                },
+                {
+                    name: "NGUYỄN THU HÀ",
+                    class: "9A",
+                    achievement: "Giải Nhất Lịch Sử cấp Huyện",
+                    teacher: "ĐINH LƯƠNG BÀNH",
+                    score: "18"
+                },
+                {
+                    name: "CHU TRƯỜNG ĐẠT",
+                    class: "9A",
+                    achievement: "Giải Ba Toán cấp Tỉnh",
+                    teacher: "LÊ THỊ THU NGA",
+                    score: ""
+                },
+                {
+                    name: "VŨ NGỌC THỦY TIÊN",
+                    class: "9A",
+                    achievement: "Giải Nhất CASSIO cấp Tỉnh",
+                    teacher: "LÊ THỊ THU NGA",
+                    score: ""
+                }
+            ],
+            
+            // ===== 2010-2015 =====
+            "2010-2011": [
+                {
+                    name: "TRẦN THỊ HOÀI THƯƠNG",
+                    class: "9B",
+                    achievement: "Giải Ba Ngữ Văn cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN THỊ THOẠI HẰNG",
+                    class: "9C",
+                    achievement: "Giải Nhì Hóa Học cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN THỊ THU THẢO",
+                    class: "9D",
+                    achievement: "Giải Nhì Sinh Học cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN HOÀNG CHÂU",
+                    class: "9A",
+                    achievement: "Giải Ba Tiếng Anh cấp Tỉnh, Huy chương Bạc Quốc gia",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "TRẦN ĐÌNH NGUYÊN",
+                    class: "9A",
+                    achievement: "Huy chương Vàng Quốc gia Tiếng Anh",
+                    teacher: "",
+                    score: ""
+                }
+            ],
+            
+            "2011-2012": [
+                {
+                    name: "VŨ HỒNG VÂN",
+                    class: "9A",
+                    achievement: "Giải Ba Toán cấp Tỉnh",
+                    teacher: "ĐỖ VIẾT THÀNH",
+                    score: "8.5"
+                },
+                {
+                    name: "PHAN THỊ KIM NGÂN",
+                    class: "9A",
+                    achievement: "Giải Nhất Toán Internet cấp Huyện",
+                    teacher: "ĐỖ VIẾT THÀNH",
+                    score: "300"
+                },
+                {
+                    name: "NGUYỄN VĂN MẠNH",
+                    class: "8A",
+                    achievement: "Giải Nhất Toán Internet cấp Huyện",
+                    teacher: "BÙI NGUYÊN BÌNH",
+                    score: "300"
+                },
+                {
+                    name: "TRẦN THỊ THU NGỌC",
+                    class: "9C",
+                    achievement: "Giải Nhất Tiếng Anh Internet cấp Huyện",
+                    teacher: "DƯƠNG KHẮC NGỌC",
+                    score: "300"
+                },
+                {
+                    name: "LÊ THỊ THÙY TRANG",
+                    class: "9A",
+                    achievement: "Giải Nhất Tiếng Anh Internet cấp Huyện",
+                    teacher: "",
+                    score: "300"
+                }
+            ],
+            
+            "2012-2013": [
+                {
+                    name: "NGUYỄN THIÊN NGÂN",
+                    class: "9A",
+                    achievement: "Giải Ba MTCasio cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "ĐỖ THỊ HUYỀN TRANG",
+                    class: "9A",
+                    achievement: "Giải Nhì MTCasio cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN NGỌC CAO",
+                    class: "9A",
+                    achievement: "Giải Ba Vật Lí cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN THỊ TRÀ MY",
+                    class: "9C",
+                    achievement: "Giải Ba Địa Lí cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                }
+            ],
+            
+            "2013-2014": [
+                {
+                    name: "HÀ THỊ MINH THI",
+                    class: "",
+                    achievement: "Giải Nhất MTCT CASIO cấp Huyện, Giải Ba cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN THỊ PHƯƠNG MAI",
+                    class: "",
+                    achievement: "Giải Ba Sinh học cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                }
+            ],
+            
+            "2014-2015": [
+                {
+                    name: "PHÙNG THỊ BẢO QUỲNH",
+                    class: "9A",
+                    achievement: "Giải Nhất Sinh học cấp Huyện",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN CỘNG MINH",
+                    class: "9A",
+                    achievement: "Giải Ba Vật lí cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                }
+            ],
+            
+            // ===== 2015-2020 =====
+            "2015-2016": [
+                {
+                    name: "PHẠM TRUNG KIÊN",
+                    class: "9A",
+                    achievement: "Giải Nhất Tiếng Anh cấp Huyện, Giải Nhì cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN THỊ NGUYỆT HÀ",
+                    class: "9A",
+                    achievement: "Giải Nhất Sinh học cấp Huyện",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN NGÔ TRUNG KIÊN",
+                    class: "9A",
+                    achievement: "Giải Nhất MTCT Cassio cấp Huyện",
+                    teacher: "",
+                    score: ""
+                }
+            ],
+            
+            // ===== 2020-2025 =====
+            "2021-2022": [
+                {
+                    name: "NGUYỄN TRỌNG QUANG MINH",
+                    class: "",
+                    achievement: "Vàng Violympic Toán TV cấp Tỉnh, Huy chương Đồng Olympic Tiếng Anh Quốc gia",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "VÕ ANH SỰ",
+                    class: "",
+                    achievement: "Vàng Violympic Toán TV cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN LÊ MINH ĐỨC",
+                    class: "",
+                    achievement: "Vàng Violympic Toán TV cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "PHẠM ANH THÁI",
+                    class: "",
+                    achievement: "Bạc Violympic Toán TV cấp Tỉnh, Nhất Văn hóa đọc cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN BÙI HÀ DƯƠNG",
+                    class: "",
+                    achievement: "Giải Nhì KHKT cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                }
+            ],
+            
+            "2022-2023": [
+                {
+                    name: "NGUYỄN BÙI KHÔI NGUYÊN",
+                    class: "",
+                    achievement: "Bạc Violympic Toán TV cấp Tỉnh, Đồng Quốc gia",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "PHẠM GIA VĨNH TƯỜNG",
+                    class: "",
+                    achievement: "Vàng Violympic Toán TV cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN NGỌC GIA NHI",
+                    class: "",
+                    achievement: "Vàng Violympic Toán TV cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "PHẠM ANH THƯ",
+                    class: "",
+                    achievement: "Vàng Violympic Toán TV cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN VĂN THÀNH TIẾN",
+                    class: "",
+                    achievement: "Nhất STEM cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                }
+            ],
+            
+            "2023-2024": [
+                {
+                    name: "DƯƠNG KHẮC VIỆT ANH",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN LÊ MINH ĐỨC",
+                    class: "",
+                    achievement: "Đồng Violympic Toán Quốc gia",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "PHẠM GIA VĨNH TƯỜNG",
+                    class: "",
+                    achievement: "KK Violympic Toán Quốc gia",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "ĐỖ HOÀNG DUY KHOA",
+                    class: "",
+                    achievement: "Nhất Toán cấp Huyện",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN HOÀNG VŨ",
+                    class: "",
+                    achievement: "Nhất Hóa học cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                }
+            ],
+            
+            "2024-2025": [
+                {
+                    name: "CHU TUẤN HẢI",
+                    class: "7B",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "PHẠM TRÍ DŨNG",
+                    class: "7A",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN LÊ MINH ĐỨC",
+                    class: "9A",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh, Giải Ba Toán cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "TRẦN NGUYỄN LINH NHƯ",
+                    class: "9A",
+                    achievement: "Giải Nhì Ngữ văn cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN NỮ KHÁNH TRANG",
+                    class: "9A",
+                    achievement: "Giải Ba Lịch sử cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                }
+            ],
+            
+            // ===== 2025-2030 (Dự kiến) =====
+            "2025-2026": [
+                {
+                    name: "Học sinh 1",
+                    class: "10A",
+                    achievement: "Thành tích xuất sắc trong học tập",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "Học sinh 2",
+                    class: "10B",
+                    achievement: "Giải Nhất Olympic Toán",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "Học sinh 3",
+                    class: "10C",
+                    achievement: "Giải Nhất Olympic Vật Lý",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "Học sinh 4",
+                    class: "10D",
+                    achievement: "Giải Nhất Olympic Hóa Học",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "Học sinh 5",
+                    class: "10A",
+                    achievement: "Giải Nhất Olympic Tiếng Anh",
+                    teacher: "",
+                    score: ""
+                }
+            ]
+        };
+
+        // ===== DỮ LIỆU THẠC SĨ, TIẾN SĨ =====
+        const graduatesData = [
+            {
+                name: "NGUYỄN VĂN A",
+                degree: "Tiến sĩ",
+                major: "Khoa học Máy tính",
+                workplace: "Đại học Quốc gia Hà Nội",
+                achievement: "Nghiên cứu về Trí tuệ Nhân tạo",
+                year: 2010,
+                icon: "fas fa-user-graduate"
+            },
+            {
+                name: "TRẦN THỊ B",
+                degree: "Thạc sĩ", 
+                major: "Quản trị Kinh doanh",
+                workplace: "Tập đoàn FPT",
+                achievement: "Quản lý dự án phần mềm",
+                year: 2012,
+                icon: "fas fa-briefcase"
+            },
+            {
+                name: "LÊ VĂN C",
+                degree: "Tiến sĩ",
+                major: "Y học",
+                workplace: "Bệnh viện Bạch Mai",
+                achievement: "Nghiên cứu điều trị ung thư",
+                year: 2015,
+                icon: "fas fa-user-md"
+            },
+            {
+                name: "PHẠM THỊ D",
+                degree: "Thạc sĩ",
+                major: "Luật học",
+                workplace: "Văn phòng Luật sư Dragon",
+                achievement: "Chuyên gia luật quốc tế",
+                year: 2013,
+                icon: "fas fa-balance-scale"
+            },
+            {
+                name: "HOÀNG VĂN E",
+                degree: "Tiến sĩ",
+                major: "Vật lý học",
+                workplace: "Viện Hàn lâm Khoa học",
+                achievement: "Nghiên cứu vật liệu mới",
+                year: 2018,
+                icon: "fas fa-atom"
+            },
+            {
+                name: "VŨ THỊ F",
+                degree: "Thạc sĩ",
+                major: "Ngôn ngữ học",
+                workplace: "Đại học Sư phạm Hà Nội",
+                achievement: "Giáo viên xuất sắc",
+                year: 2016,
+                icon: "fas fa-chalkboard-teacher"
+            }
+        ];
+
         // Tạo hiệu ứng hạt ánh sáng
         function createParticles() {
             const particlesContainer = document.getElementById('particles');
@@ -1459,29 +2056,36 @@
             // Cập nhật tiêu đề
             document.getElementById('studentPageTitle').textContent = `VINH DANH HỌC SINH XUẤT SẮC NĂM HỌC ${year}`;
             
-            // Tạo danh sách học sinh mẫu
+            // Tạo danh sách học sinh
             const studentsList = document.getElementById('studentsList');
             studentsList.innerHTML = ''; // Xóa nội dung cũ
             
-            // Tạo 5 học sinh mẫu
-            for (let i = 1; i <= 5; i++) {
-                const studentCard = document.createElement('div');
-                studentCard.className = 'student-card enhanced-card';
-                studentCard.innerHTML = `
-                    <div class="student-icon"><i class="fas fa-star"></i></div>
-                    <img src="https://via.placeholder.com/160x160/3a6dc9/FFFFFF?text=HS+${i}" alt="Học sinh ${i}" class="student-image image-3d">
-                    <h3>Học sinh ${i}</h3>
-                    <p>Thành tích: Giải Nhất môn Toán</p>
-                    <p>Lớp: 9A${i}</p>
-                    <p>Điểm TB: 9.${i}</p>
-                `;
-                
-                // Thêm sự kiện click để hiển thị modal
-                studentCard.addEventListener('click', function() {
-                    showDetailModal(i, year, 'student');
+            // Kiểm tra xem có dữ liệu cho năm này không
+            if (studentsData[year]) {
+                // Tạo card cho từng học sinh
+                studentsData[year].forEach((student, index) => {
+                    const studentCard = document.createElement('div');
+                    studentCard.className = 'student-card enhanced-card';
+                    studentCard.innerHTML = `
+                        <div class="student-icon"><i class="fas fa-star"></i></div>
+                        <img src="https://via.placeholder.com/160x160/3a6dc9/FFFFFF?text=${student.name.split(' ').pop()}" alt="${student.name}" class="student-image image-3d">
+                        <h3>${student.name}</h3>
+                        <p>Lớp: ${student.class}</p>
+                        <p>Thành tích: ${student.achievement}</p>
+                        ${student.score ? `<p>Điểm: ${student.score}</p>` : ''}
+                        ${student.teacher ? `<p>GV: ${student.teacher}</p>` : ''}
+                    `;
+                    
+                    // Thêm sự kiện click để hiển thị modal
+                    studentCard.addEventListener('click', function() {
+                        showDetailModal(student, year, 'student');
+                    });
+                    
+                    studentsList.appendChild(studentCard);
                 });
-                
-                studentsList.appendChild(studentCard);
+            } else {
+                // Nếu không có dữ liệu cho năm này
+                studentsList.innerHTML = '<p style="grid-column: 1/-1; font-size: 2rem; color: #e0e0ff;">Chưa có dữ liệu cho năm học này</p>';
             }
         }
         
@@ -1496,70 +2100,12 @@
             const mastersPhdPage = document.getElementById('mastersPhdPage');
             mastersPhdPage.style.display = 'block';
             
-            // Tạo danh sách cựu học sinh mẫu
+            // Tạo danh sách cựu học sinh
             const graduatesList = document.getElementById('graduatesList');
             graduatesList.innerHTML = ''; // Xóa nội dung cũ
             
-            // Danh sách các học vị và thông tin mẫu
-            const graduates = [
-                {
-                    name: "Nguyễn Văn A",
-                    degree: "Tiến sĩ",
-                    major: "Khoa học Máy tính",
-                    workplace: "Đại học Quốc gia Hà Nội",
-                    achievement: "Nghiên cứu về Trí tuệ Nhân tạo",
-                    year: 2010,
-                    icon: "fas fa-user-graduate"
-                },
-                {
-                    name: "Trần Thị B",
-                    degree: "Thạc sĩ", 
-                    major: "Quản trị Kinh doanh",
-                    workplace: "Tập đoàn FPT",
-                    achievement: "Quản lý dự án phần mềm",
-                    year: 2012,
-                    icon: "fas fa-briefcase"
-                },
-                {
-                    name: "Lê Văn C",
-                    degree: "Tiến sĩ",
-                    major: "Y học",
-                    workplace: "Bệnh viện Bạch Mai",
-                    achievement: "Nghiên cứu điều trị ung thư",
-                    year: 2015,
-                    icon: "fas fa-user-md"
-                },
-                {
-                    name: "Phạm Thị D",
-                    degree: "Thạc sĩ",
-                    major: "Luật học",
-                    workplace: "Văn phòng Luật sư Dragon",
-                    achievement: "Chuyên gia luật quốc tế",
-                    year: 2013,
-                    icon: "fas fa-balance-scale"
-                },
-                {
-                    name: "Hoàng Văn E",
-                    degree: "Tiến sĩ",
-                    major: "Vật lý học",
-                    workplace: "Viện Hàn lâm Khoa học",
-                    achievement: "Nghiên cứu vật liệu mới",
-                    year: 2018,
-                    icon: "fas fa-atom"
-                },
-                {
-                    name: "Vũ Thị F",
-                    degree: "Thạc sĩ",
-                    major: "Ngôn ngữ học",
-                    workplace: "Đại học Sư phạm Hà Nội",
-                    achievement: "Giáo viên xuất sắc",
-                    year: 2016,
-                    icon: "fas fa-chalkboard-teacher"
-                }
-            ];
-            
             // Tạo card cho từng cựu học sinh
-            graduates.forEach((graduate, index) => {
+            graduatesData.forEach((graduate, index) => {
                 const graduateCard = document.createElement('div');
                 graduateCard.className = 'graduate-card enhanced-card';
                 graduateCard.innerHTML = `
@@ -1574,7 +2120,7 @@
                 
                 // Thêm sự kiện click để hiển thị modal
                 graduateCard.addEventListener('click', function() {
-                    showDetailModal(index, graduate, 'graduate');
+                    showDetailModal(graduate, '', 'graduate');
                 });
                 
                 graduatesList.appendChild(graduateCard);
@@ -1582,7 +2128,7 @@
         }
         
         // Hàm hiển thị modal thông tin chi tiết
-        function showDetailModal(id, data, type) {
+        function showDetailModal(data, year, type) {
             const modal = document.getElementById('detailModal');
             const personName = document.getElementById('modalPersonName');
             const personImage = document.getElementById('modalPersonImage');
@@ -1590,16 +2136,18 @@
             
             if (type === 'student') {
                 // Hiển thị thông tin học sinh
-                personName.textContent = `Học sinh ${id}`;
-                personImage.src = `https://via.placeholder.com/220x220/3a6dc9/FFFFFF?text=HS+${id}`;
-                personImage.alt = `Học sinh ${id}`;
+                const student = data;
+                personName.textContent = student.name;
+                personImage.src = `https://via.placeholder.com/220x220/3a6dc9/FFFFFF?text=${student.name.split(' ').pop()}`;
+                personImage.alt = student.name;
                 
                 personInfo.innerHTML = `
-                    <p><strong>Năm học:</strong> ${data}</p>
-                    <p><strong>Lớp:</strong> 9A${id}</p>
-                    <p><strong>Thành tích:</strong> Giải Nhất môn Toán</p>
-                    <p><strong>Điểm trung bình:</strong> 9.${id}</p>
-                    <p><strong>Ghi chú:</strong> Học sinh xuất sắc toàn diện</p>
+                    <p><strong>Năm học:</strong> ${year}</p>
+                    <p><strong>Lớp:</strong> ${student.class}</p>
+                    <p><strong>Thành tích:</strong> ${student.achievement}</p>
+                    ${student.score ? `<p><strong>Điểm:</strong> ${student.score}</p>` : ''}
+                    ${student.teacher ? `<p><strong>Giáo viên hướng dẫn:</strong> ${student.teacher}</p>` : ''}
+                    <p><strong>Ghi chú:</strong> Học sinh xuất sắc của trường</p>
                 `;
             } else {
                 // Hiển thị thông tin cựu học sinh
