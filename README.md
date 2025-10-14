@@ -1347,14 +1347,12 @@
                     name: "NGUYỄN CÔNG ĐỊNH",
                     class: "9A",
                     achievement: "Giải Nhất Vật Lý cấp Huyện, Giải Ba Vật Lý cấp Tỉnh",
-                    teacher: "NGUYỄN THỊ NGÂN",
                     score: "19"
                 },
                 {
                     name: "PHẠM THỊ NGỌC MAI",
                     class: "9A",
                     achievement: "Giải Nhất Sinh Học cấp Huyện, Giải Nhì Sinh Học cấp Tỉnh",
-                    teacher: "BÙI THỊ TUYẾT",
                     score: "19"
                 },
                 {
@@ -1385,14 +1383,12 @@
                     name: "NGUYỄN CÔNG ĐỊNH",
                     class: "9A",
                     achievement: "Giải Nhất Vật Lý cấp Huyện, Giải Ba Vật Lý cấp Tỉnh",
-                    teacher: "NGUYỄN THỊ NGÂN",
                     score: "19"
                 },
                 {
                     name: "PHẠM THỊ NGỌC MAI",
                     class: "9A",
                     achievement: "Giải Nhất Sinh Học cấp Huyện, Giải Nhì Sinh Học cấp Tỉnh",
-                    teacher: "BÙI THỊ TUYẾT",
                     score: "19"
                 },
                 {
@@ -1423,21 +1419,18 @@
                     name: "TRƯƠNG THÀNH CÔNG",
                     class: "9A",
                     achievement: "Giải Ba Toán cấp Tỉnh",
-                    teacher: "LÊ THỊ THU NGA",
                     score: ""
                 },
                 {
                     name: "ĐỖ VĂN MẠNH",
                     class: "9B",
                     achievement: "Giải Ba Vật Lý cấp Tỉnh",
-                    teacher: "NGUYỄN THỊ NGÂN",
                     score: ""
                 },
                 {
                     name: "NGUYỄN THỊ PHƯƠNG MAI",
                     class: "9A",
                     achievement: "Giải Ba Hóa Học cấp Tỉnh",
-                    teacher: "ĐINH THỊ THO",
                     score: ""
                 }
             ],
