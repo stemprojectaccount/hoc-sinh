@@ -1,4 +1,4 @@
-<html lang="vi">
+                 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1475,38 +1475,34 @@
             
             "2009-2010": [
                 {
-                    name: "NGUYỄN VĂN MẪN",
-                    class: "9A",
-                    achievement: "Giải Nhất Vật Lý cấp Huyện",
-                    teacher: "NGUYỄN THỊ NGÂN",
+                    name: "TRẦN TẤN THỊNH" />",
+                    class: "9C",
+                    achievement: "Giải Nhất Bống Rổ ",
                     score: "18.5"
                 },
                 {
-                    name: "ĐẶNG HOÀNG LÂM",
-                    class: "9A",
-                    achievement: "Giải Nhất Sinh Học cấp Huyện, Giải Nhì Sinh Học cấp Tỉnh",
-                    teacher: "BÙI THỊ TUYẾT",
+                    name: "THÁI VIẾT NÔ VA",
+                    class: "9C",
+                    achievement: "Giải Nhất Bống Rổ",
                     score: "18"
                 },
                 {
-                    name: "NGUYỄN THU HÀ",
-                    class: "9A",
-                    achievement: "Giải Nhất Lịch Sử cấp Huyện",
-                    teacher: "ĐINH LƯƠNG BÀNH",
+                    name: "PHẠM QUỐC HOÀNG",
+                    class: "9v",
+                    achievement: "Giải Nhất Bống Rổ",
                     score: "18"
                 },
                 {
-                    name: "CHU TRƯỜNG ĐẠT",
-                    class: "9A",
-                    achievement: "Giải Ba Toán cấp Tỉnh",
-                    teacher: "LÊ THỊ THU NGA",
+                    name: "VŨ NGỌC SƯ HUYNH",
+                    class: "8A",
+                    achievement: "Giải Nhất Bống Rổ",
                     score: ""
                 },
                 {
                     name: "VŨ NGỌC THỦY TIÊN",
                     class: "9A",
                     achievement: "Giải Nhất CASSIO cấp Tỉnh",
-                    teacher: "LÊ THỊ THU NGA",
+
                     score: ""
                 }
             ],
