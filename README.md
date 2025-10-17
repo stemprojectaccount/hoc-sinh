@@ -1347,14 +1347,12 @@
                     name: "NGUYỄN CÔNG ĐỊNH",
                     class: "9A",
                     achievement: "Giải Nhất Vật Lý cấp Huyện, Giải Ba Vật Lý cấp Tỉnh",
-                    teacher: "NGUYỄN THỊ NGÂN",
                     score: "19"
                 },
                 {
                     name: "PHẠM THỊ NGỌC MAI",
                     class: "9A",
                     achievement: "Giải Nhất Sinh Học cấp Huyện, Giải Nhì Sinh Học cấp Tỉnh",
-                    teacher: "BÙI THỊ TUYẾT",
                     score: "19"
                 },
                 {
@@ -1385,14 +1383,12 @@
                     name: "NGUYỄN CÔNG ĐỊNH",
                     class: "9A",
                     achievement: "Giải Nhất Vật Lý cấp Huyện, Giải Ba Vật Lý cấp Tỉnh",
-                    teacher: "NGUYỄN THỊ NGÂN",
                     score: "19"
                 },
                 {
                     name: "PHẠM THỊ NGỌC MAI",
                     class: "9A",
                     achievement: "Giải Nhất Sinh Học cấp Huyện, Giải Nhì Sinh Học cấp Tỉnh",
-                    teacher: "BÙI THỊ TUYẾT",
                     score: "19"
                 },
                 {
@@ -1423,61 +1419,102 @@
                     name: "TRƯƠNG THÀNH CÔNG",
                     class: "9A",
                     achievement: "Giải Ba Toán cấp Tỉnh",
-                    teacher: "LÊ THỊ THU NGA",
                     score: ""
                 },
                 {
                     name: "ĐỖ VĂN MẠNH",
                     class: "9B",
                     achievement: "Giải Ba Vật Lý cấp Tỉnh",
-                    teacher: "NGUYỄN THỊ NGÂN",
                     score: ""
                 },
                 {
                     name: "NGUYỄN THỊ PHƯƠNG MAI",
                     class: "9A",
                     achievement: "Giải Ba Hóa Học cấp Tỉnh",
-                    teacher: "ĐINH THỊ THO",
                     score: ""
                 }
             ],
             
-            "2008-2009": [
-                {
+            "2008-2009": 
+            [
+                {    
                     name: "ĐỖ NGỌC TRÂM",
                     class: "9A",
                     achievement: "Giải Nhất CASSIO cấp Huyện",
-                    teacher: "LÊ THỊ THU NGA",
                     score: ""
                 },
                 {
                     name: "ĐỖ THỊ TRANG DUYÊN",
                     class: "9A",
                     achievement: "Giải Nhất Hóa Học cấp Huyện",
-                    teacher: "ĐINH THỊ THO",
                     score: "18.5"
                 },
                 {
                     name: "HỒ VIỆT TÍN",
                     class: "9C",
                     achievement: "Giải Nhất Hóa Học cấp Huyện",
-                    teacher: "ĐINH THỊ THO",
                     score: "18"
                 },
                 {
                     name: "PHẠM MẠNH HÙNG",
                     class: "9B",
                     achievement: "Cúp Vô Địch Bóng Rổ Nam cấp Tỉnh",
-                    teacher: "",
                     score: ""
                 },
                 {
                     name: "VŨ QUANG SƠN",
                     class: "9B",
                     achievement: "Cúp Vô Địch Bóng Rổ Nam cấp Tỉnh",
-                    teacher: "",
                     score: ""
-                }
+                },
+               {
+                    name: "HỒ QUÝ LY",
+                    class: "9D",
+                    achievement: "Giải Nhì Bóng Rổ Nam Cấp Tỉnh",
+                    score: ""
+                },
+                {
+                    name: "HỒ QUANG TÂM",
+                    class: "9D",
+                    achievement: "Giải Nhì Bóng Rổ Nam Cấp Tỉnh",
+                    score: ""
+                },
+                {
+                    name: "ĐÀO XUÂN LAM",
+                    class: "9D",
+                    achievement: "Cúp Vô Địch Bóng Rổ Nam cấp Tỉnh",
+                    score: ""
+                },
+                                {
+                    name: "TRẦN THÁI HỌC",
+                    class: "",
+                    achievement: " Giải nhì  Bóng Rổ Nam cấp Tỉnh",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN NGỌC QUÝ",
+                    class: "",
+                    achievement: "Cúp Vô Địch Bóng Rổ Nam cấp Tỉnh",
+                    score: ""
+                },
+               {
+                    name: "LƯƠNG THANH HIẾU",
+                    class: "9A",
+                    achievement: "Cúp Vô Địch Bóng Rổ Nam Cấp Tỉnh",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN NGỌC ANH",
+                    class: "9A",
+                    achievement: "Cúp Vô Địch Bóng Rổ Nam Cấp Tỉnh",
+                    score: ""
+                },
+                {
+                    name: "NGÔ QUỐC HUY",
+                    class: "9D",
+                    achievement: "giải nhì  Bóng Rổ Nam cấp Tỉnh",
+                    score: ""
+                },
             ],
             
             "2009-2010": [
