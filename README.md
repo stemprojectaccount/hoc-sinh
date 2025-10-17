@@ -1416,103 +1416,305 @@
             
             "2007-2008": [
                 {
-                    name: "TRƯƠNG THÀNH CÔNG",
-                    class: "9A",
-                    achievement: "Giải Ba Toán cấp Tỉnh",
-                    score: ""
-                },
-                {
-                    name: "ĐỖ VĂN MẠNH",
-                    class: "9B",
-                    achievement: "Giải Ba Vật Lý cấp Tỉnh",
-                    score: ""
-                },
-                {
-                    name: "NGUYỄN THỊ PHƯƠNG MAI",
-                    class: "9A",
-                    achievement: "Giải Ba Hóa Học cấp Tỉnh",
-                    score: ""
-                }
-            ],
-            
-            "2008-2009": 
-            [  
                 {
                     name: "ĐỖ NGỌC TRÂM",
                     class: "9A",
                     achievement: "Giải Nhất CASSIO cấp Huyện",
+                    teacher: "LÊ THỊ THU NGA",
                     score: ""
                 },
                 {
                     name: "ĐỖ THỊ TRANG DUYÊN",
                     class: "9A",
                     achievement: "Giải Nhất Hóa Học cấp Huyện",
+                    teacher: "ĐINH THỊ THO",
                     score: "18.5"
                 },
                 {
                     name: "HỒ VIỆT TÍN",
                     class: "9C",
                     achievement: "Giải Nhất Hóa Học cấp Huyện",
+                    teacher: "ĐINH THỊ THO",
                     score: "18"
                 },
                 {
                     name: "PHẠM MẠNH HÙNG",
                     class: "9B",
-                    achievement: "Cúp Vô Địch Bóng Rổ Nam cấp Tỉnh",
+                    achievement: "Cúp Vô Địch Bóng Rổ Nam cấp Tỉnh, Thành tích Điền Kinh",
+                    teacher: "",
                     score: ""
                 },
                 {
                     name: "VŨ QUANG SƠN",
                     class: "9B",
                     achievement: "Cúp Vô Địch Bóng Rổ Nam cấp Tỉnh",
+                    teacher: "",
                     score: ""
                 },
-               {
+                {
                     name: "HỒ QUÝ LY",
                     class: "9D",
-                    achievement: "Giải Nhì Bóng Rổ Nam Cấp Tỉnh",
+                    achievement: "Cúp Vô Địch Bóng Rổ Nam cấp Tỉnh",
+                    teacher: "",
                     score: ""
                 },
                 {
                     name: "HỒ QUANG TÂM",
                     class: "9D",
-                    achievement: "Giải Nhì Bóng Rổ Nam Cấp Tỉnh",
+                    achievement: "Giải Nhì Bóng Rổ Nam cấp Tỉnh",
+                    teacher: "",
                     score: ""
                 },
                 {
                     name: "ĐÀO XUÂN LAM",
                     class: "9D",
                     achievement: "Cúp Vô Địch Bóng Rổ Nam cấp Tỉnh",
+                    teacher: "",
                     score: ""
                 },
-                                {
+                {
                     name: "TRẦN THÁI HỌC",
-                    class: "",
-                    achievement: " Giải nhì  Bóng Rổ Nam cấp Tỉnh",
+                    class: "9D",
+                    achievement: "Giải Nhì Bóng Rổ Nam cấp Tỉnh",
+                    teacher: "",
                     score: ""
                 },
                 {
                     name: "NGUYỄN NGỌC QUÝ",
-                    class: "",
+                    class: "8A",
                     achievement: "Cúp Vô Địch Bóng Rổ Nam cấp Tỉnh",
+                    teacher: "",
                     score: ""
                 },
-               {
+                {
                     name: "LƯƠNG THANH HIẾU",
                     class: "9A",
-                    achievement: "Cúp Vô Địch Bóng Rổ Nam Cấp Tỉnh",
+                    achievement: "Cúp Vô Địch Bóng Rổ Nam cấp Tỉnh, Thành tích Điền Kinh",
+                    teacher: "",
                     score: ""
                 },
                 {
                     name: "NGUYỄN NGỌC ANH",
                     class: "9A",
-                    achievement: "Cúp Vô Địch Bóng Rổ Nam Cấp Tỉnh",
+                    achievement: "Cúp Vô Địch Bóng Rổ Nam cấp Tỉnh",
+                    teacher: "",
                     score: ""
                 },
                 {
                     name: "NGÔ QUỐC HUY",
                     class: "9D",
-                    achievement: "giải nhì  Bóng Rổ Nam cấp Tỉnh",
+                    achievement: "Giải Nhì Bóng Rổ Nam cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "TRẦN TẤN THỊNH",
+                    class: "8C",
+                    achievement: "Cúp Vô Địch Bóng Rổ Nam cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN CÔNG TRÚC",
+                    class: "9A",
+                    achievement: "Giải Nhì Bóng Rổ Nam cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "PHẠM VĂN THẮNG",
+                    class: "8B",
+                    achievement: "Cúp Vô Địch Bóng Rổ Nam cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "PHẠM QUỐC HOÀNG",
+                    class: "8C",
+                    achievement: "Giải Nhì Bóng Rổ Nam cấp Tỉnh, Thành tích Điền Kinh",
+                    teacher: "Trần Công Vinh",
+                    score: ""
+                },
+                {
+                    name: "HỒ LÊ XUÂN QUYỀN",
+                    class: "9A",
+                    achievement: "Giải Nhì Bóng Rổ Nam cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "PHẠM THỊ THƯƠNG",
+                    class: "9D",
+                    achievement: "Giải Nhì Bóng Rổ Nam cấp Tỉnh, Thành tích Bóng rổ",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "TRƯƠNG QUANG NGỌC",
+                    class: "9A",
+                    achievement: "Giải Nhì Bóng Bàn cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN SƠN TRƯỜNG",
+                    class: "9A",
+                    achievement: "Giải Nhì - Ba Bóng Bàn cấp Tỉnh, Thành tích Bóng bàn cấp Huyện",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "LÊ TRƯỜNG THỌ",
+                    class: "8C",
+                    achievement: "Giải Nhì - Ba Bóng Bàn cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "LÊ THỊ HÀ",
+                    class: "9C",
+                    achievement: "Giải Ba Bóng Bàn cấp Tỉnh, Thành tích Bóng bàn cấp Huyện",
+                    teacher: "Lê Viết Tương",
+                    score: ""
+                },
+                {
+                    name: "TẠ NGỌC THẾ",
+                    class: "8D",
+                    achievement: "Giải Ba Bóng Bàn cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "ĐỖ NGỌC TRANG NHUNG",
+                    class: "7A",
+                    achievement: "Giải Nhì - Ba Bóng Bàn cấp Tỉnh, Giải Nhất Bóng Bàn cấp Huyện",
+                    teacher: "Trần Công Vinh",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN THỊ THANH XUÂN",
+                    class: "7A",
+                    achievement: "Giải Nhì - Ba Bóng Bàn cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN HUỆ NHẠN",
+                    class: "9C",
+                    achievement: "Giải Nhì - Ba Bóng Bàn cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "PHẠM THÁI THÚY THÚY",
+                    class: "9C",
+                    achievement: "2 Giải Nhất Bóng Bàn cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "PHẠM THỊ THẢO NGUYÊN",
+                    class: "9C",
+                    achievement: "Giải Nhất - Nhì Bóng Bàn cấp Tỉnh",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "LÊ THỊ MỸ VÂN",
+                    class: "9D",
+                    achievement: "Thành tích Bắn nỏ",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "ĐỖ ĐÌNH ĐỨC",
+                    class: "9D",
+                    achievement: "Thành tích Bắn nỏ",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN THỊ HOÀI VI",
+                    class: "9A",
+                    achievement: "Thành tích Bóng rổ",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "VƯƠNG THỊ PHƯƠNG DUYÊN",
+                    class: "9A",
+                    achievement: "Thành tích Bóng rổ",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "HỒ THỊ BẢO MI",
+                    class: "9A",
+                    achievement: "Thành tích Bóng rổ",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "LÊ THỊ TÂN LỢI",
+                    class: "9A",
+                    achievement: "Thành tích Bóng rổ",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "LÊ THỊ LINH NGUYÊN",
+                    class: "9A",
+                    achievement: "Thành tích Bóng rổ",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN THỊ THU HƯƠNG",
+                    class: "9D",
+                    achievement: "Thành tích Bóng rổ",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN THỊ THU PHƯƠNG",
+                    class: "9D",
+                    achievement: "Thành tích Bóng rổ",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN THỊ HẠNH",
+                    class: "9B",
+                    achievement: "Thành tích Bóng rổ",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "ĐOÀN THỊ THẢO",
+                    class: "9B",
+                    achievement: "Thành tích Bóng rổ",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "TRẦN THÙY TRANG",
+                    class: "9B",
+                    achievement: "Thành tích Bóng rổ",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN THỊ NGỌC TRÂM",
+                    class: "9B",
+                    achievement: "Thành tích Bóng rổ",
+                    teacher: "",
+                    score: ""
+                },
+                {
+                    name: "NGUYỄN LÊ TUYÊN",
+                    class: "8C",
+                    achievement: "Thành tích Điền Kinh",
+                    teacher: "",
                     score: ""
                 },
             ],
