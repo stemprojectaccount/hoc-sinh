@@ -2111,7 +2111,7 @@
                     achievement: "Giải Nhất Nghi thức Đội cấp Huyện",
                     teacher: "",
                     score: ""
-                },
+                }
             ],
             
             // ===== 2010-2015 =====
@@ -2241,7 +2241,7 @@
                     achievement: "Giải Nhất Tiếng Anh cấp Huyện",
                     teacher: "",
                     score: ""
-                },
+                }
             ],
             
             "2011-2012": [
@@ -2447,7 +2447,7 @@
                     achievement: "Giải Nhất Tiếng Anh Internet cấp Huyện",
                     teacher: "",
                     score: "300"
-                },
+                }
             ],
             
             "2012-2013": [
@@ -2478,7 +2478,7 @@
                     achievement: "Giải Ba Địa lí cấp Tỉnh",
                     teacher: "",
                     score: ""
-                },
+                }
             ],
             
             "2013-2014": [
@@ -2495,7 +2495,7 @@
                     achievement: "Giải Ba Sinh học cấp Tỉnh",
                     teacher: "",
                     score: ""
-                },
+                }
             ],
             
             "2014-2015": [
@@ -2688,7 +2688,7 @@
                     achievement: "Giải Nhì KHKT cấp Tỉnh",
                     teacher: "",
                     score: ""
-                },
+                }
             ],
             
             "2022-2023": [
@@ -3034,7 +3034,7 @@
                     achievement: "Giải Ba Văn hóa đọc Quốc gia",
                     teacher: "",
                     score: ""
-                },
+                }
             ],
             
             "2023-2024": [
@@ -3577,11 +3577,11 @@
                     achievement: "Khuyến khích Tin học cấp Tỉnh",
                     teacher: "",
                     score: ""
-                },
+                }
             ],
             
-            "2024-2025": [
-            "2024-2025": [
+            "2024-2025": 
+            [
                 {
                     name: "CHU TUẤN HẢI",
                     class: "7B",
@@ -4064,7 +4064,7 @@
                     achievement: "Khuyến khích Văn hóa đọc cấp Tỉnh",
                     teacher: "",
                     score: ""
-                },
+                }
             ],
             
             // ===== 2025-2030 (Dự kiến) =====
