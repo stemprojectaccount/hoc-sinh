@@ -1342,7 +1342,8 @@
         // ===== DỮ LIỆU HỌC SINH THỰC TẾ =====
         const studentsData = {
             // ===== 2005-2010 =====
-            "2005-2006": [
+            "2005-2006": 
+            [
                 {
                     name: "NGUYỄN CÔNG ĐỊNH",
                     class: "9A",
@@ -1378,7 +1379,8 @@
                 }
             ],
             
-            "2006-2007": [
+            "2006-2007": 
+            [
                 {
                     name: "NGUYỄN CÔNG ĐỊNH",
                     class: "9A",
@@ -1414,8 +1416,8 @@
                 }
             ],
             
-            "2007-2008": [
-                {
+            "2007-2008": 
+            [
                 {
                     name: "ĐỖ NGỌC TRÂM",
                     class: "9A",
@@ -1719,8 +1721,9 @@
                 }
             ],
             
-            "2009-2010": [
-                               {
+            "2009-2010": 
+            [
+                {
                     name: "NGUYỄN VĂN MẪN",
                     class: "9A",
                     achievement: "Giải Nhất Vật Lý cấp Huyện",
@@ -2245,8 +2248,9 @@
                 }
             ],
             
-            "2011-2012": [
-                                {
+            "2011-2012": 
+            [
+                {
                     name: "VŨ HỒNG VÂN",
                     class: "9A",
                     achievement: "Giải Ba Toán cấp Tỉnh",
@@ -4074,7 +4078,8 @@
             ],
             
             // ===== 2025-2030 (Dự kiến) =====
-            "2025-2026": [
+            "2025-2026": 
+            [
                 {
                     name: "Học sinh 1",
                     class: "10A",
@@ -4114,7 +4119,8 @@
         };
 
         // ===== DỮ LIỆU THẠC SĨ, TIẾN SĨ =====
-        const graduatesData = [
+        const graduatesData = 
+        [
             {
                 name: "NGUYỄN VĂN A",
                 degree: "Tiến sĩ",
